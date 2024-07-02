@@ -86,11 +86,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "1") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "J Murray";
+        SG.textContent = "K Caldwell-Pope";
+        SF.textContent = "M Porter Jr";
+        PF.textContent = "A Gordon";
+        C.textContent = "N Jokic";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -98,11 +98,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "G Vincent";
+        twoSG.textContent = "M Strus";
+        twoSF.textContent = "J Butler";
+        twoPF.textContent = "K Love";
+        twoC.textContent = "B Adebayo";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -110,15 +110,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "<br>"
-        team2.innerHTML = "<br>"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        flag1.src = "/basket_img/logos/denver.gif"
+        flag2.src = "/basket_img/logos/miami.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup23.png";
+        manager1.textContent += "Michael Malone"
+        manager2.textContent += "Erik Spoelstra"
+        team1.innerHTML = "DENVER<br>NUGGETS"
+        team2.innerHTML = "MIAMI<br>HEAT"
+        result.innerHTML = "DENVER WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "2") {
