@@ -1,0 +1,229 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, grey 30%, dodgerblue 70%);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover; 
+    opacity:1;
+    position: relative;
+}
+
+select {
+    padding: 10px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 32%;
+    margin: 100px auto;
+    background-color: white;
+    text-shadow: 1px 1px 3px #000;
+    box-shadow: 0px 0px 25px 0px black;
+    text-align: center;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+option {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.result {
+    position: absolute;
+    text-align: center;
+    left: 38%;
+    top: 25%;
+    font-size: 43px;
+    text-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+}
+
+.OT {
+    position: absolute;
+    left: 47%;
+    top: 33%;   
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.team1 {
+    top: 70px;
+    left: 50px;
+    font-size:50px;
+    position: absolute;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.team2 {
+    top: 70px;
+    right: 50px;
+    font-size:50px;
+    position: absolute;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000;    
+}
+
+.flag1 {
+    position: absolute;
+    height: 10%;
+    left: 21%;
+    top: 4%;
+}
+
+.flag2 {
+    position: absolute;
+    height: 10%;
+    right: 21%;
+    top: 4%;
+}
+
+.manager1 {
+    font-size: 24px;
+    position: absolute;
+    bottom:65px;
+    left: 75px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.manager2 {
+    font-size: 24px;
+    position: absolute;    
+    bottom: 65px;
+    right: 100px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.sidepic {
+    position: absolute;
+    top: 48%;
+    left:43%;
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+}
+
+.formations {
+    display: flex;
+    margin-left: -390px;
+}
+
+.rectangle {
+    min-height:800px;
+    min-width: 1200px;
+    margin-top: -80px;
+}
+
+.one{
+    position: relative;
+}
+
+.two {
+    position: relative;
+} 
+
+.rectangle > p, .rectangle img {
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #000;
+    height: 150px;
+}
+
+.label h3 {
+    position: absolute;
+    font-weight: bold;
+    left: 35.5%;
+    top: 3%;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.FL {
+    position: absolute;
+    left: 41%; /* Updated value */                
+    top: 37.5%; 
+}
+
+.FL2 {
+    position: absolute;
+    left: 41%;               
+    top: 19%; /* Updated value */
+}
+
+.FC {
+    position: absolute;
+    left: 56%; /* Updated value */               
+    top: 37.5%; 
+}
+
+.FC2 {
+    position: absolute;
+    left: 56%; /* Updated value */                
+    top: 19%;
+}
+
+.FR {
+    position: absolute;
+    left: 71%; /* Updated value */               
+    top: 37.5%;
+}
+
+.FR2 {
+    position: absolute;
+    left: 71%; /* Updated value */                
+    top: 19%;
+}
+
+.DL {
+    position: absolute;
+    left: 48.5%; /* Updated value */               
+    top: 64.5%;
+}
+
+.DL2 {
+    position: absolute;
+    left: 48.5%; /* Updated value */                
+    top: 46%;
+}
+
+.DR {
+    position: absolute;
+    left: 63.5%; /* Updated value */               
+    top: 64.5%;
+}
+
+.DR2 {
+    position: absolute;
+    left: 63.5%; /* Updated value */                
+    top: 46%;
+}
+
+.G {
+    position: absolute;
+    left: 56%; /* Updated value */               
+    top: 89.5%;
+}
+
+.G2 {
+    position: absolute;
+    left: 56%; /* Updated value */                
+    top: 71%;
+}
+
+.rectangle img {
+    border-radius: 16px;
+    box-shadow: 0px 0px 23px 0px black;
+}
