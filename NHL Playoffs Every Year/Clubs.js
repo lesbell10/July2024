@@ -49,6 +49,7 @@ function updatePlayerInfo() {
     OT.style.textAlign = "center"
     // flag1.style.left = "20%"
     // flag2.style.right = "20%"
+    sidepic.style.marginTop = "0"
 
     if (selectedYear == "0") {
         FL.textContent = "M Tkachuk";
@@ -128,5 +129,1007 @@ function updatePlayerInfo() {
         team2.innerHTML = "FLORIDA<br>PANTHERS"
         result.innerHTML = "VEGAS WINS SERIES"
         OT.textContent = "4 - 1"
+    }
+
+    if (selectedYear == "2") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "COLORADO<br>AVALANCHE"
+        team2.innerHTML = "TAMPA BAY<br>LIGHTNING"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "3") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "TAMPA BAY<br>LIGHTNING"
+        team2.innerHTML = "MONTRÉAL<br>CANADIENS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "4") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "TAMPA BAY<br>LIGHTNING"
+        team2.innerHTML = "DALLAS<br>STARS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "5") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "BOSTON<br>BRUINS"
+        team2.innerHTML = "ST LOUIS<br>BLUES"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "6") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "VEGAS<br>GOLDEN<br>KNIGHTS"
+        team2.innerHTML = "WASHINGTON<br>CAPITALS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "7") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "PITTSBURGH<br>PENGUINS"
+        team2.innerHTML = "NASHVILLE<br>PREDATORS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "8") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "PITTSBURGH<br>PENGUINS"
+        team2.innerHTML = "SAN JOSE<br>SHARKS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "9") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "TAMPA BAY<br>LIGHTNING"
+        team2.innerHTML = "CHICAGO<br>BLACKHAWKS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "10") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "LOS ANGELES<br>KINGS"
+        team2.innerHTML = "NEW YORK<br>RANGERS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "11") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "CHICAGO<br>BLACKHAWKS"
+        team2.innerHTML = "BOSTON<br>BRUINS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "12") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "NEW JERSEY<br>DEVILS"
+        team2.innerHTML = "LOS ANGELES<br>KINGS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "13") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "VANCOUVER<br>CANUCKS"
+        team2.innerHTML = "BOSTON<br>BRUINS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "14") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "CHICAGO<br>BLACKHAWKS"
+        team2.innerHTML = "PHILADELPHIA<br>FLYERS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "15") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "DETROIT<br>RED WINGS"
+        team2.innerHTML = "PITTSBURGH<br>PENGUINS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "16") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "DETROIT<br>RED WINGS"
+        team2.innerHTML = "PITTSBURGH<br>PENGUINS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "17") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "ANAHEIM<br>DUCKS"
+        team2.innerHTML = "OTTAWA<br>SENATORS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "18") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "EDMONTON<br>OILERS"
+        team2.innerHTML = "CAROLINA<br>HURRICANES"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "19") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "";
+        FC2.src = "";
+        FR2.src = "";
+        DL2.src = "";
+        DR2.src = "";
+        G2.src = "";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "";
+        twoFC2.src = "";
+        twoFR2.src = "";
+        twoDL2.src = "";
+        twoDR2.src = "";
+        twoG2.src = "";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/lockout.jpg";
+        manager1.textContent = ""
+        manager2.textContent = ""
+        team1.innerHTML = "<br>"
+        team2.innerHTML = "<br>"
+        result.innerHTML = ""
+        OT.textContent = ""
+        sidepic.style.marginTop = "-200px"
+
+    }
+
+    if (selectedYear == "20") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "CALGARY<br>FLAMES"
+        team2.innerHTML = "TAMPA BAY<br>LIGHTNING"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "21") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "ANAHEIM<br>MIGHTY<>DUCKS"
+        team2.innerHTML = "NEW JERSEY<br>DEVILS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "22") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "CAROLINA<br>HURRICANES"
+        team2.innerHTML = "DETROIT<br>RED WINGS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "23") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "NEW JERSEY<br>DEVILS"
+        team2.innerHTML = "COLORADO<br>AVALANCHE"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "24") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "DALLAS<br>STARS"
+        team2.innerHTML = "NEW JERSEY<br>DEVILS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "25") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "BUFFALO<br>SABRES"
+        team2.innerHTML = "DALLAS<br>STARS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
+    }
+
+    if (selectedYear == "26") {
+        FL.textContent = "";
+        FC.textContent = "";
+        FR.textContent = "";
+        DL.textContent = "";
+        DR.textContent = "";
+        G.textContent = "";
+
+        FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
+        FC2.src = "/hockey_img/players/" + FC.textContent + ".jpg";
+        FR2.src = "/hockey_img/players/" + FR.textContent + ".jpg";
+        DL2.src = "/hockey_img/players/" + DL.textContent + ".jpg";
+        DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
+        G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
+
+        twoFL.textContent = "";
+        twoFC.textContent = "";
+        twoFR.textContent = "";
+        twoDL.textContent = "";
+        twoDR.textContent = "";
+        twoG.textContent = "";
+
+        twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
+        twoFC2.src = "/hockey_img/players/" + twoFC.textContent + ".jpg";
+        twoFR2.src = "/hockey_img/players/" + twoFR.textContent + ".jpg";
+        twoDL2.src = "/hockey_img/players/" + twoDL.textContent + ".jpg";
+        twoDR2.src = "/hockey_img/players/" + twoDR.textContent + ".jpg";
+        twoG2.src = "/hockey_img/players/" + twoG.textContent + ".jpg";
+
+        flag1.src = "/hockey_img/logos/.gif"
+        flag2.src = "/hockey_img/logos/.gif"
+        sidepic.src = "/hockey_img/logos/stanley cup/cup24.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "WASHINGTON<br>CAPITALS"
+        team2.innerHTML = "DETROIT<br>RED WINGS"
+        result.innerHTML = "WINS SERIES"
+        OT.textContent = "4 - 3"
     }
 }

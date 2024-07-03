@@ -50,10 +50,12 @@ function Shorter() {
 
         if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "" || div.textContent === "") {
+        } else if (div.textContent === "Christensen" || div.textContent === "") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-40px';
+        } else if (div.textContent === "Vestergaard" || div.textContent === "Kochorashvili") {
+            div.style.marginLeft = '-50px';
         } else {
             div.style.marginLeft = '0';
         }

@@ -80,18 +80,18 @@ option {
 
 .flag1 {
     position: absolute;
-    height: 10%;
-    left: 23%;
+    height: 11%;
+    left: 21%;
     top: 4%;
-    border-radius: 15px;
+    border-radius: 15px
 }
 
 .flag2 {
     position: absolute;
-    height: 10%;
-    right: 23%;
+    height: 11%;
+    right: 21%;
     top: 4%;
-    border-radius: 15px;
+    border-radius: 15px
 }
 
 .manager1 {
@@ -112,7 +112,7 @@ option {
 
 .sidepic {
     position: absolute;
-    top: 48%;
+    top: 42%;
     left:43%;
     object-fit: contain;
     width: 300px;
