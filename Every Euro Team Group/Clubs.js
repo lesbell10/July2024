@@ -114,7 +114,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "13") {
-        three_five_two("Szczesny", "Frankowski", "Zalewski", "Kiwior", "Dawidowicz", "Bednarek", "Romanczuk", "Szymanski", "Urbanski", "Zielinski", "Buksa");
+        three_five_two("Szczesny", "Frankowski", "Zalewski", "Kiwior", "Dawidowicz", "J Bednarek", "Romanczuk", "S Szymanski", "Buksa", "Zielinski", "Lewandowski");
         sidepic.src = "/football_img/logos/poland.png";
         manager.textContent += "Michal Probierz";
     }
@@ -138,13 +138,13 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "17") {
-        three_four_two_one("Rajkovic", "Zivkovic", "Kostic", "Pavlovic", "Milenkovic", "Veljkovic", "Vlahovic", "Gudelj", "Mitrovic", "Lukic", "Milinkovic-Savic");
+        three_four_two_one("Rajkovic", "Zivkovic", "Kostic", "Pavlovic", "Milenkovic", "Veljkovic", "Milinkovic-Savic", "N Gudelj", "Mitrovic", "Lukic", "Vlahovic");
         sidepic.src = "/football_img/logos/serbia.png";
         manager.textContent += "Dragan Stojkovic";
     }
 
     if (selectedYear == "18") {
-        four_two_three_one("Dubravka", "Hancko", "Pekarik", "Skriniar", "Vavro", "Lobotka", "Schranz", "Kucka", "Bozenik", "Duda", "Haraslin");
+        four_three_three("Dubravka", "Pekarik", "Hancko", "Skriniar", "Vavro", "Lobotka", "Schranz", "Kucka", "Bozenik", "Duda", "Haraslin");
         sidepic.src = "/football_img/logos/slovakia.png";
         manager.textContent += "Francesco Calzona";
     }
@@ -156,26 +156,26 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "20") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
-        manager.textContent += "";
+        four_three_three("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "Rodri", "Yamal", "Pedri", "Morata", "F Ruiz", "N Williams");
+        sidepic.src = "/football_img/logos/spain.png";
+        manager.textContent += "Luis de la Fuente";
     }
 
     if (selectedYear == "21") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
-        manager.textContent += "";
+        three_four_two_one("Sommer", "Widmer", "Aebischer", "R Rodriguez", "Akanji", "Schar", "Shaqiri", "Xhaka", "Embolo", "Freuler", "Ndoye");
+        sidepic.src = "/football_img/logos/switzerland.png";
+        manager.textContent += "Murat Yakin";
     }
 
     if (selectedYear == "22") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
-        manager.textContent += "";
+        four_two_three_one("Gunok", "Muldur", "Kadioglu", "Bardakci", "Akaydin", "Ayhan", "Guler", "Calhanoglu", "Yilmaz", "Kokcu", "Yildiz");
+        sidepic.src = "/football_img/logos/turkey.png";
+        manager.textContent += "Vincenzo Montella";
     }
 
     if (selectedYear == "23") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
-        manager.textContent += "";
+        four_two_three_one("Lunin", "Konoplya", "Zinchenko", "Matviyenko", "Zabarnyi", "Stepanenko", "Tsygankov", "Shaparenko", "Dovbyk", "Sudakov", "Mudryk");
+        sidepic.src = "/football_img/logos/ukraine.png";
+        manager.textContent += "Serhiy Rebrov";
     }
 }

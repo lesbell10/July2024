@@ -50,9 +50,9 @@ function Shorter() {
 
         if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Christensen" || div.textContent === "") {
+        } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk") {
             div.style.marginLeft = '-25px';
-        } else if (div.textContent === "" || div.textContent === "") {
+        } else if (div.textContent === "Milinkovic-Savic" || div.textContent === "R Rodriguez") {
             div.style.marginLeft = '-40px';
         } else if (div.textContent === "Vestergaard" || div.textContent === "Kochorashvili") {
             div.style.marginLeft = '-50px';
