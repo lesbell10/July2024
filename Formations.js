@@ -50,7 +50,7 @@ function Shorter() {
 
         if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk") {
+        } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk" || div.textContent === "Kossounou") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "Milinkovic-Savic" || div.textContent === "R Rodriguez") {
             div.style.marginLeft = '-40px';

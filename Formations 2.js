@@ -97,11 +97,11 @@ function Shorter() {
 
         if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Christensen" || div.textContent === "") {
+        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni") {
             div.style.marginLeft = '-25px';
-        } else if (div.textContent === "" || div.textContent === "") {
+        } else if (div.textContent === "Kochorashvili" || div.textContent === "") {
             div.style.marginLeft = '-40px';
-        } else if (div.textContent === "Vestergaard" || div.textContent === "") {
+        } else if (div.textContent === "" || div.textContent === "Christensen") {
             div.style.marginLeft = '-50px';
         } else {
             div.style.marginLeft = '0';

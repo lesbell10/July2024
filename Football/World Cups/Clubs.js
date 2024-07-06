@@ -38,7 +38,7 @@ import {
     five_four_one,
     five_four_one2,
 
-} from '../Formations 2.js'
+} from '../../Formations 2.js'
 
 const yearSelector = document.querySelector(".yearSelector");
 const sidepic = document.querySelector(".sidepic");
