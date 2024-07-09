@@ -48,11 +48,11 @@ function Shorter() {
 
     divs.forEach(div => {
 
-        if (div.textContent === "" || div.textContent === "") {
+        if (div.textContent === "Zubimendi" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk" || div.textContent === "Kossounou") {
+        } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk" || div.textContent === "Kossounou" || div.textContent === "Guendouzi" || div.textContent === "Tchouameni" || div.textContent === "Z Anguissa" || div.textContent === "Szoboszlai") {
             div.style.marginLeft = '-25px';
-        } else if (div.textContent === "Milinkovic-Savic" || div.textContent === "R Rodriguez") {
+        } else if (div.textContent === "Milinkovic-Savic" || div.textContent === "R Rodriguez" || div.textContent === "C McGregor") {
             div.style.marginLeft = '-40px';
         } else if (div.textContent === "Vestergaard" || div.textContent === "Kochorashvili") {
             div.style.marginLeft = '-50px';

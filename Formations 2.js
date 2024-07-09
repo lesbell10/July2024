@@ -97,7 +97,7 @@ function Shorter() {
 
         if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni") {
+        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni" || div.textContent === "Camavinga" || div.textContent === "Calhanoglu") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "Kochorashvili" || div.textContent === "") {
             div.style.marginLeft = '-40px';
