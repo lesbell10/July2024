@@ -60,7 +60,19 @@ if (selectedYear == "5") {
 
 // 4-1-3-2
 if (selectedYear == "0") {
+    four_one_three_two("GK", "RB", "LB", "RCB", "LCB", "DM", "RCM", "CM", "STR", "STL", "LCM")
+    sidepic.src = "/img/logos/team.webp";
+}
+
+// 4-1-3-2 att
+if (selectedYear == "0") {
     four_one_three_two("GK", "RB", "LB", "RCB", "LCB", "CM", "RF", "AMC", "STR", "STL", "LF")
+    sidepic.src = "/img/logos/team.webp";
+}
+
+// 4-1-3-1-1
+if (selectedYear == "0") {
+    four_one_three_two("GK", "RB", "LB", "RCB", "LCB", "DM", "RCM", "CM", "STC", "AMC", "LCM")
     sidepic.src = "/img/logos/team.webp";
 }
 

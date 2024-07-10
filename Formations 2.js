@@ -95,11 +95,11 @@ function Shorter() {
 
     divs.forEach(div => {
 
-        if (div.textContent === "" || div.textContent === "") {
+        if (div.textContent === "L Paredes" || div.textContent === "Marquinhos" || div.textContent === "Henderson") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni" || div.textContent === "Camavinga" || div.textContent === "Calhanoglu") {
+        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni" || div.textContent === "Camavinga" || div.textContent === "Calhanoglu" || div.textContent === "Alexander-Arnold") {
             div.style.marginLeft = '-25px';
-        } else if (div.textContent === "Kochorashvili" || div.textContent === "") {
+        } else if (div.textContent === "Kochorashvili" || div.textContent === "van Bommel") {
             div.style.marginLeft = '-40px';
         } else if (div.textContent === "" || div.textContent === "Christensen") {
             div.style.marginLeft = '-50px';
@@ -413,6 +413,34 @@ export function four_one_three_two(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11)
     STL2.src = "/football_img/players/" + STL.textContent + ".webp";
     STR.textContent = n9
     STR2.src = "/football_img/players/" + STR.textContent + ".webp";
+    LCM.textContent = n11
+    LCM2.src = "/football_img/players/" + LCM.textContent + ".webp";
+    CM.textContent = n8
+    CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    RCM.textContent = n7
+    RCM2.src = "/football_img/players/" + RF.textContent + ".webp";
+    DM.textContent = n6
+    DM2.src = "/football_img/players/" + DM.textContent + ".webp";
+    LB.textContent = n3
+    LB2.src = "/football_img/players/" + LB.textContent + ".webp";
+    LCB.textContent = n4
+    LCB2.src = "/football_img/players/" + LCB.textContent + ".webp";
+    RCB.textContent = n5
+    RCB2.src = "/football_img/players/" + RCB.textContent + ".webp";
+    RB.textContent = n2
+    RB2.src = "/football_img/players/" + RB.textContent + ".webp";
+    GK.textContent = n1
+    GK2.src = "/football_img/players/" + GK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-2 att
+export function four_one_three_two_att(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields();
+    STL.textContent = n10
+    STL2.src = "/football_img/players/" + STL.textContent + ".webp";
+    STR.textContent = n9
+    STR2.src = "/football_img/players/" + STR.textContent + ".webp";
     LF.textContent = n11
     LF2.src = "/football_img/players/" + LF.textContent + ".webp";
     AMC.textContent = n8
@@ -421,6 +449,34 @@ export function four_one_three_two(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11)
     RF2.src = "/football_img/players/" + RF.textContent + ".webp";
     CM.textContent = n6
     CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    LB.textContent = n3
+    LB2.src = "/football_img/players/" + LB.textContent + ".webp";
+    LCB.textContent = n4
+    LCB2.src = "/football_img/players/" + LCB.textContent + ".webp";
+    RCB.textContent = n5
+    RCB2.src = "/football_img/players/" + RCB.textContent + ".webp";
+    RB.textContent = n2
+    RB2.src = "/football_img/players/" + RB.textContent + ".webp";
+    GK.textContent = n1
+    GK2.src = "/football_img/players/" + GK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-1-1
+export function four_one_three_one_one(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields();
+    STC.textContent = n9
+    STC2.src = "/football_img/players/" + STC.textContent + ".webp";
+    AMC.textContent = n10
+    AMC2.src = "/football_img/players/" + AMC.textContent + ".webp";
+    LCM.textContent = n11
+    LCM2.src = "/football_img/players/" + LCM.textContent + ".webp";
+    CM.textContent = n8
+    CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    RCM.textContent = n7
+    RCM2.src = "/football_img/players/" + RF.textContent + ".webp";
+    DM.textContent = n6
+    DM2.src = "/football_img/players/" + DM.textContent + ".webp";
     LB.textContent = n3
     LB2.src = "/football_img/players/" + LB.textContent + ".webp";
     LCB.textContent = n4
@@ -951,6 +1007,34 @@ export function four_one_three_two2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11
     twoSTL2.src = "/football_img/players/" + twoSTL.textContent + ".webp";
     twoSTR.textContent = n9;
     twoSTR2.src = "/football_img/players/" + twoSTR.textContent + ".webp";
+    twoLCM.textContent = n11;
+    twoLCM2.src = "/football_img/players/" + twoLCM.textContent + ".webp";
+    twoCM.textContent = n8;
+    twoCM2.src = "/football_img/players/" + twoCM.textContent + ".webp";
+    twoRCM.textContent = n7;
+    twoRCM2.src = "/football_img/players/" + twoRCM.textContent + ".webp";
+    twoDM.textContent = n6;
+    twoDM2.src = "/football_img/players/" + twoDM.textContent + ".webp";
+    twoLB.textContent = n3;
+    twoLB2.src = "/football_img/players/" + twoLB.textContent + ".webp";
+    twoLCB.textContent = n4;
+    twoLCB2.src = "/football_img/players/" + twoLCB.textContent + ".webp";
+    twoRCB.textContent = n5;
+    twoRCB2.src = "/football_img/players/" + twoRCB.textContent + ".webp";
+    twoRB.textContent = n2;
+    twoRB2.src = "/football_img/players/" + twoRB.textContent + ".webp";
+    twoGK.textContent = n1;
+    twoGK2.src = "/football_img/players/" + twoGK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-2
+export function four_one_three_two_att2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields2();
+    twoSTL.textContent = n10;
+    twoSTL2.src = "/football_img/players/" + twoSTL.textContent + ".webp";
+    twoSTR.textContent = n9;
+    twoSTR2.src = "/football_img/players/" + twoSTR.textContent + ".webp";
     twoLF.textContent = n11;
     twoLF2.src = "/football_img/players/" + twoLF.textContent + ".webp";
     twoAMC.textContent = n8;
@@ -959,6 +1043,34 @@ export function four_one_three_two2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11
     twoRF2.src = "/football_img/players/" + twoRF.textContent + ".webp";
     twoCM.textContent = n6;
     twoCM2.src = "/football_img/players/" + twoCM.textContent + ".webp";
+    twoLB.textContent = n3;
+    twoLB2.src = "/football_img/players/" + twoLB.textContent + ".webp";
+    twoLCB.textContent = n4;
+    twoLCB2.src = "/football_img/players/" + twoLCB.textContent + ".webp";
+    twoRCB.textContent = n5;
+    twoRCB2.src = "/football_img/players/" + twoRCB.textContent + ".webp";
+    twoRB.textContent = n2;
+    twoRB2.src = "/football_img/players/" + twoRB.textContent + ".webp";
+    twoGK.textContent = n1;
+    twoGK2.src = "/football_img/players/" + twoGK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-1-1
+export function four_one_three_one_one2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields2();
+    twoSTC.textContent = n9;
+    twoSTC2.src = "/football_img/players/" + twoSTC.textContent + ".webp";
+    twoAMC.textContent = n10;
+    twoAMC2.src = "/football_img/players/" + twoAMC.textContent + ".webp";
+    twoLCM.textContent = n11;
+    twoLCM2.src = "/football_img/players/" + twoLCM.textContent + ".webp";
+    twoCM.textContent = n8;
+    twoCM2.src = "/football_img/players/" + twoCM.textContent + ".webp";
+    twoRCM.textContent = n7;
+    twoRCM2.src = "/football_img/players/" + twoRCM.textContent + ".webp";
+    twoDM.textContent = n6;
+    twoDM2.src = "/football_img/players/" + twoDM.textContent + ".webp";
     twoLB.textContent = n3;
     twoLB2.src = "/football_img/players/" + twoLB.textContent + ".webp";
     twoLCB.textContent = n4;

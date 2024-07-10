@@ -108,7 +108,7 @@ option {
 
 .sidepic {
     position: absolute;
-    top: 43%;
+    top: 45%;
     left:42%;
     object-fit: contain;
     width: 300px;
@@ -169,59 +169,59 @@ option {
 
 .date {
     position: absolute;
-    left: 45%;
+    left: 46%;
     top: 15%;
     font-size: 24px;
     text-shadow: 1px 1px 2px #000;
 }
 
-.STL { top: -2.5%; left: 34%; }
+.STL { top: -2%; left: 34%; }
 .STL2 {top: -24%; left:34%}
-.STC { top: -2.5%; left: 45%; }
+.STC { top: -2%; left: 45%; }
 .STC2 { top: -24%; left: 45%; }
-.STR { top: -2.5%; left: 56%; }
+.STR { top: -2%; left: 56%; }
 .STR2 { top: -24%; left: 56%; }
-.LW { top: 24.5%; left: 5%; }
+.LW { top: 25%; left: 5%; }
 .LW2 { top: 3%; left: 5%; }
-.LF { top: 26.5%; left: 15%; }
+.LF { top: 27%; left: 15%; }
 .LF2 { top: 5%; left: 15%; }
-.AMLC { top: 26.5%; left: 35%; }
+.AMLC { top: 27%; left: 35%; }
 .AMLC2 {top: 5%; left: 35% } 
-.AMC { top: 26.5%; left: 45%; }
+.AMC { top: 27%; left: 45%; }
 .AMC2 { top: 5%; left: 45%; }
-.AMRC { top: 26.5%; left: 55%; }
+.AMRC { top: 27%; left: 55%; }
 .AMRC2 { top: 5%; left: 55%; }
-.RF { top: 26.5%; left: 74%; }
+.RF { top: 27%; left: 74%; }
 .RF2 { top: 5%; left: 74%; }
-.RW { top: 24.5%; left: 84%; }
+.RW { top: 25%; left: 84%; }
 .RW2 { top: 3%; left: 84%; }
-.WL { top: 54%; left: 5%; }
+.WL { top: 54.5%; left: 5%; }
 .WL2 { top:32.5%; left: 5%; }
-.LCM { top: 55%; left: 29%; }
+.LCM { top: 55.5%; left: 29%; }
 .LCM2 { top: 33.5%; left: 29%; }
-.CM { top: 58%; left: 45%; }
+.CM { top: 58.5%; left: 45%; }
 .CM2 { top: 36.5%; left: 45%; }
-.RCM { top: 55%; left: 61%; }
+.RCM { top: 55.5%; left: 61%; }
 .RCM2 { top: 33.5%; left: 61%; }
-.WR { top: 54%; left: 85%; }
+.WR { top: 54.5%; left: 85%; }
 .WR2 { top: 32.5%; left: 85%; }
-.LWB { top: 75%; left: 0; }
+.LWB { top: 75.5%; left: 0; }
 .LWB2 { top: 53.5%; left: 0; }
-.DM { top: 70.5%; left: 44%; }
+.DM { top: 71%; left: 44%; }
 .DM2 { top: 49%; left: 44%; }
-.RWB { top: 75%; left: 89%; }
+.RWB { top: 75.5%; left: 89%; }
 .RWB2 { top: 53.5%; left: 89%; }
-.LB { top: 83.5%; left: 1%; }
+.LB { top: 84%; left: 1%; }
 .LB2 { top: 62%; left: 1%; }
-.LCB { top: 86.5%; left: 29%; }
+.LCB { top: 87%; left: 29%; }
 .LCB2 { top: 65%; left: 29%; }
-.CB { top: 86.5%; left: 45%; }
+.CB { top: 87%; left: 45%; }
 .CB2 { top: 65%; left: 45%; }
-.RCB { top: 86.5%; left: 61%; }
+.RCB { top: 87%; left: 61%; }
 .RCB2 { top: 65%; left: 61%; }
-.RB { top: 83.5%; left: 88%; }
+.RB { top: 84%; left: 88%; }
 .RB2 { top: 62%; left: 88%; }
-.GK { top: 115.5%; left: 45%; }
+.GK { top: 116%; left: 45%; }
 .GK2 { top: 94%; left: 45%; }
 
 .rectangle img {

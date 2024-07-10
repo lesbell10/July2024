@@ -315,6 +315,34 @@ export function four_one_three_two(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11)
     STL2.src = "/football_img/players/" + STL.textContent + ".webp";
     STR.textContent = n9
     STR2.src = "/football_img/players/" + STR.textContent + ".webp";
+    LCM.textContent = n11
+    LCM2.src = "/football_img/players/" + LCM.textContent + ".webp";
+    CM.textContent = n8
+    CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    RCM.textContent = n7
+    RCM2.src = "/football_img/players/" + RF.textContent + ".webp";
+    DM.textContent = n6
+    DM2.src = "/football_img/players/" + DM.textContent + ".webp";
+    LB.textContent = n3
+    LB2.src = "/football_img/players/" + LB.textContent + ".webp";
+    LCB.textContent = n4
+    LCB2.src = "/football_img/players/" + LCB.textContent + ".webp";
+    RCB.textContent = n5
+    RCB2.src = "/football_img/players/" + RCB.textContent + ".webp";
+    RB.textContent = n2
+    RB2.src = "/football_img/players/" + RB.textContent + ".webp";
+    GK.textContent = n1
+    GK2.src = "/football_img/players/" + GK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-2 att
+export function four_one_three_two_att(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields();
+    STL.textContent = n10
+    STL2.src = "/football_img/players/" + STL.textContent + ".webp";
+    STR.textContent = n9
+    STR2.src = "/football_img/players/" + STR.textContent + ".webp";
     LF.textContent = n11
     LF2.src = "/football_img/players/" + LF.textContent + ".webp";
     AMC.textContent = n8
@@ -323,6 +351,62 @@ export function four_one_three_two(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11)
     RF2.src = "/football_img/players/" + RF.textContent + ".webp";
     CM.textContent = n6
     CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    LB.textContent = n3
+    LB2.src = "/football_img/players/" + LB.textContent + ".webp";
+    LCB.textContent = n4
+    LCB2.src = "/football_img/players/" + LCB.textContent + ".webp";
+    RCB.textContent = n5
+    RCB2.src = "/football_img/players/" + RCB.textContent + ".webp";
+    RB.textContent = n2
+    RB2.src = "/football_img/players/" + RB.textContent + ".webp";
+    GK.textContent = n1
+    GK2.src = "/football_img/players/" + GK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-1-1
+export function four_one_three_one_one(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields();
+    STC.textContent = n9
+    STC2.src = "/football_img/players/" + STC.textContent + ".webp";
+    AMC.textContent = n10
+    AMC2.src = "/football_img/players/" + AMC.textContent + ".webp";
+    LCM.textContent = n11
+    LCM2.src = "/football_img/players/" + LCM.textContent + ".webp";
+    CM.textContent = n8
+    CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    RCM.textContent = n7
+    RCM2.src = "/football_img/players/" + RF.textContent + ".webp";
+    DM.textContent = n6
+    DM2.src = "/football_img/players/" + DM.textContent + ".webp";
+    LB.textContent = n3
+    LB2.src = "/football_img/players/" + LB.textContent + ".webp";
+    LCB.textContent = n4
+    LCB2.src = "/football_img/players/" + LCB.textContent + ".webp";
+    RCB.textContent = n5
+    RCB2.src = "/football_img/players/" + RCB.textContent + ".webp";
+    RB.textContent = n2
+    RB2.src = "/football_img/players/" + RB.textContent + ".webp";
+    GK.textContent = n1
+    GK2.src = "/football_img/players/" + GK.textContent + ".webp";
+    Shorter();
+}
+
+// 4-1-3-1-1
+export function four_one_three_one_one(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+    clearFields();
+    STC.textContent = n9
+    STC2.src = "/football_img/players/" + STC.textContent + ".webp";
+    AMC.textContent = n10
+    AMC2.src = "/football_img/players/" + AMC.textContent + ".webp";
+    LCM.textContent = n11
+    LCM2.src = "/football_img/players/" + LCM.textContent + ".webp";
+    CM.textContent = n8
+    CM2.src = "/football_img/players/" + CM.textContent + ".webp";
+    RCM.textContent = n7
+    RCM2.src = "/football_img/players/" + RF.textContent + ".webp";
+    DM.textContent = n6
+    DM2.src = "/football_img/players/" + DM.textContent + ".webp";
     LB.textContent = n3
     LB2.src = "/football_img/players/" + LB.textContent + ".webp";
     LCB.textContent = n4
