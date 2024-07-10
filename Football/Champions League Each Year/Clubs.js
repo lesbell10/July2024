@@ -9,6 +9,8 @@ import {
     four_four_two2,
     four_two_two_two,
     four_two_two_two2,
+    four_one_two_one_two,
+    four_one_two_one_two2,
     four_three_one_two,
     four_three_one_two2,
     four_three_two_one,
@@ -17,8 +19,6 @@ import {
     four_one_three_two2,
     four_one_three_two_att,
     four_one_three_two_att2,
-    four_one_three_one_one,
-    four_one_three_one_one2,
     four_four_one_one,
     four_four_one_one2,
     four_five_one,
@@ -44,6 +44,24 @@ import {
 
 } from '/Formations 2.js'
 
+const LCM = document.querySelector('.one .LCM');
+const LCM2 = document.querySelector('.one .LCM2');
+const CM = document.querySelector('.one .CM');
+const CM2 = document.querySelector('.one .CM2');
+const RCM = document.querySelector('.one .RCM');
+const RCM2 = document.querySelector('.one .RCM2');
+const DM = document.querySelector('.one .DM');
+const DM2 = document.querySelector('.one .DM2');
+
+const twoLCM = document.querySelector('.two .LCM');
+const twoLCM2 = document.querySelector('.two .LCM2');
+const twoCM = document.querySelector('.two .CM');
+const twoCM2 = document.querySelector('.two .CM2');
+const twoRCM = document.querySelector('.two .RCM');
+const twoRCM2 = document.querySelector('.two .RCM2');
+const twoDM = document.querySelector('.two .DM');
+const twoDM2 = document.querySelector('.two .DM2');
+
 const yearSelector = document.querySelector(".yearSelector");
 const sidepic = document.querySelector(".sidepic");
 const flag1 = document.querySelector(".flag1")
@@ -59,6 +77,25 @@ const goals2 = document.querySelector(".goals2")
 const date = document.querySelector(".date")
 
 yearSelector.addEventListener("change", () => {
+
+    LCM.style.top = "55.5%"
+    LCM2.style.top = "33.5%"
+    RCM.style.top = "55.5%"
+    RCM2.style.top = "33.5%"
+    CM.style.top = "58.5%"
+    CM2.style.top = "36.5%"
+    DM.style.top = "71%"
+    DM2.style.top = "49%"
+
+    twoLCM.style.top = "55.5%"
+    twoLCM2.style.top = "33.5%"
+    twoRCM.style.top = "55.5%"
+    twoRCM2.style.top = "33.5%"
+    twoCM.style.top = "58.5%"
+    twoCM2.style.top = "36.5%"
+    twoDM.style.top = "71%"
+    twoDM2.style.top = "49%"
+
     updatePlayerInfo();
 });
 
@@ -88,7 +125,7 @@ function updatePlayerInfo() {
         score.textContent = "0 - 2"
         OT.innerHTML = ""
         goals1.innerHTML = ""
-        goals2.innerHTML = "⚽ Carvajal 74'<br>⚽ Vini Jr 83'"
+        goals2.innerHTML = "Carvajal 74' ⚽<br>Vini Jr 83' ⚽"
         date.textContent = "Wembley, England"
     }
 
@@ -286,7 +323,7 @@ function updatePlayerInfo() {
         four_two_three_one2("Cech", "Bosingwa", "A Cole", "G Cahill", "Da Luiz", "J Mikel", "S Kalou", "Lampard", "Drogba", "Mata", "R Bertrand")
         flag1.src = "/football_img/logos/bayern munich.webp"
         flag2.src = "/football_img/logos/chelsea.webp"
-        sidepic.src = "/football_img/logos/ucl/2012.jpg";
+        sidepic.src = "/football_img/logos/champions league.png";
         manager1.textContent += "Jupp Heynckes"
         manager2.textContent += "Roberto Di Matteo"
         team1.innerHTML = "BAYERN MUNICH"
@@ -448,8 +485,8 @@ function updatePlayerInfo() {
         date.textContent = "Manchester, England"
     }
     if (selectedYear == "22") {
-        four_one_three_one_one("HJ Butt", "Sebescen", "Placente", "Lucio", "Zivkovic", "", "", "", "", "", "")
-        four_three_one_two2("", "", "", "", "", "", "", "", "", "", "")
+        four_one_three_two("HJ Butt", "Sebescen", "Placente", "Lucio", "Zivkovic", "Ramelow", "Schneider", "Ballack", "Neuville", "Basturk", "Brdaric")
+        four_three_one_two2("C Sanchez", "Salgado", "R Carlos", "Helguera", "Hierro", "Makelele", "Zidane", "Figo", "Morientes", "Solari", "Raul")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
         sidepic.src = "/football_img/logos/champions league.png";

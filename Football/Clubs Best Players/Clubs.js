@@ -4,6 +4,7 @@ import {
     four_three_three_false_nine,
     four_four_two,
     four_two_two_two,
+    four_one_two_one_two,
     four_three_one_two,
     four_three_two_one,
     four_one_three_two,
@@ -20,11 +21,30 @@ import {
     five_four_one,
 } from '/Formations.js'
 
+const LCM = document.querySelector('.LCM');
+const LCM2 = document.querySelector('.LCM2');
+const CM = document.querySelector('.CM');
+const CM2 = document.querySelector('.CM2');
+const RCM = document.querySelector('.RCM');
+const RCM2 = document.querySelector('.RCM2');
+const DM = document.querySelector('.DM');
+const DM2 = document.querySelector('.DM2');
+
 const yearSelector = document.querySelector(".yearSelector");
 const sidepic = document.querySelector(".sidepic");
 const manager = document.querySelector(".manager")
 
 yearSelector.addEventListener("change", () => {
+
+    LCM.style.top = "56.5%"
+    LCM2.style.top = "35.5%"
+    RCM.style.top = "56.5%"
+    RCM2.style.top = "35.5%"
+    CM.style.top = "60%"
+    CM2.style.top = "39%"
+    DM.style.top = "71%"
+    DM2.style.top = "49%"
+
     updatePlayerInfo();
 });
 
@@ -42,7 +62,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "1") {
-        four_two_three_one("Rulli", "Rensch", "Sosa", "Medic", "Sutalo", "J Henderson", "Berghuis", "van den Boomen", "Brobbey", "Akpom", "Bergwijn");
+        four_one_three_two("Rulli", "Rensch", "Sosa", "Medic", "Sutalo", "J Henderson", "Berghuis", "van den Boomen", "Brobbey", "Akpom", "Bergwijn");
         sidepic.src = "/football_img/logos/ajax.webp";
         manager.textContent += "Francesco Farioli";
     }
