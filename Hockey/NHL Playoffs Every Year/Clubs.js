@@ -132,11 +132,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "2") {
-        FL.textContent = "";
-        FC.textContent = "";
-        FR.textContent = "";
-        DL.textContent = "";
-        DR.textContent = "";
+        FL.textContent = "Landeskog";
+        FC.textContent = "MacKinnon";
+        FR.textContent = "Rantanen";
+        DL.textContent = "Makar";
+        DR.textContent = "D Toews";
         G.textContent = "";
 
         FL2.src = "/hockey_img/players/" + FL.textContent + ".jpg";
@@ -146,11 +146,11 @@ function updatePlayerInfo() {
         DR2.src = "/hockey_img/players/" + DR.textContent + ".jpg";
         G2.src = "/hockey_img/players/" + G.textContent + ".jpg";
 
-        twoFL.textContent = "";
-        twoFC.textContent = "";
-        twoFR.textContent = "";
-        twoDL.textContent = "";
-        twoDR.textContent = "";
+        twoFL.textContent = "Palat";
+        twoFC.textContent = "Stamkos";
+        twoFR.textContent = "Kucherov";
+        twoDL.textContent = "Hedman";
+        twoDR.textContent = "Sergachev";
         twoG.textContent = "";
 
         twoFL2.src = "/hockey_img/players/" + twoFL.textContent + ".jpg";
@@ -167,8 +167,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Jon Cooper"
         team1.innerHTML = "COLORADO<br>AVALANCHE"
         team2.innerHTML = "TAMPA BAY<br>LIGHTNING"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "COLORADO WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "3") {
@@ -207,8 +207,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Dominique Ducharme"
         team1.innerHTML = "TAMPA BAY<br>LIGHTNING"
         team2.innerHTML = "MONTRÉAL<br>CANADIENS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "TAMPA BAY WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "4") {
@@ -247,8 +247,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Rick Bowness"
         team1.innerHTML = "TAMPA BAY<br>LIGHTNING"
         team2.innerHTML = "DALLAS<br>STARS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "TAMPA BAY WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "5") {
@@ -287,7 +287,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Craig Berube"
         team1.innerHTML = "BOSTON<br>BRUINS"
         team2.innerHTML = "ST LOUIS<br>BLUES"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "ST LOUIS WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -327,8 +327,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Barry Trotz"
         team1.innerHTML = "VEGAS<br>GOLDEN<br>KNIGHTS"
         team2.innerHTML = "WASHINGTON<br>CAPITALS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "WASHINGTON WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "7") {
@@ -367,8 +367,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Peter Laviolette"
         team1.innerHTML = "PITTSBURGH<br>PENGUINS"
         team2.innerHTML = "NASHVILLE<br>PREDATORS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "PITTSBURGH WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "8") {
@@ -407,8 +407,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Peter DeBoer"
         team1.innerHTML = "PITTSBURGH<br>PENGUINS"
         team2.innerHTML = "SAN JOSE<br>SHARKS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "PITTSBURGH WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "9") {
@@ -447,8 +447,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Joel Quenneville"
         team1.innerHTML = "TAMPA BAY<br>LIGHTNING"
         team2.innerHTML = "CHICAGO<br>BLACKHAWKS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "CHICAGO WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "10") {
@@ -487,8 +487,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Alain Vigneault"
         team1.innerHTML = "LOS ANGELES<br>KINGS"
         team2.innerHTML = "NEW YORK<br>RANGERS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "LOS ANGELES WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "11") {
@@ -527,8 +527,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Peter Laviolette"
         team1.innerHTML = "CHICAGO<br>BLACKHAWKS"
         team2.innerHTML = "BOSTON<br>BRUINS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "CHICAGO WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "12") {
@@ -567,8 +567,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Darryl Sutter"
         team1.innerHTML = "NEW JERSEY<br>DEVILS"
         team2.innerHTML = "LOS ANGELES<br>KINGS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "LOS ANGELES WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "13") {
@@ -607,7 +607,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Claude Julien"
         team1.innerHTML = "VANCOUVER<br>CANUCKS"
         team2.innerHTML = "BOSTON<br>BRUINS"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "BOSTON WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -647,8 +647,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Peter Laviolette"
         team1.innerHTML = "CHICAGO<br>BLACKHAWKS"
         team2.innerHTML = "PHILADELPHIA<br>FLYERS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "CHICAGO WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "15") {
@@ -687,7 +687,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Dan Bylsma"
         team1.innerHTML = "DETROIT<br>RED WINGS"
         team2.innerHTML = "PITTSBURGH<br>PENGUINS"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "PITTSBURGH WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -727,8 +727,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Michel Therrien"
         team1.innerHTML = "DETROIT<br>RED WINGS"
         team2.innerHTML = "PITTSBURGH<br>PENGUINS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "DETROIT WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "17") {
@@ -767,8 +767,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Bryan Murray"
         team1.innerHTML = "ANAHEIM<br>DUCKS"
         team2.innerHTML = "OTTAWA<br>SENATORS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "ANAHEIM WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "18") {
@@ -807,7 +807,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Peter Laviolette"
         team1.innerHTML = "EDMONTON<br>OILERS"
         team2.innerHTML = "CAROLINA<br>HURRICANES"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "CAROLINA WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -889,7 +889,7 @@ function updatePlayerInfo() {
         manager2.textContent += "John Tortorella"
         team1.innerHTML = "CALGARY<br>FLAMES"
         team2.innerHTML = "TAMPA BAY<br>LIGHTNING"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "TAMPA BAY WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -929,7 +929,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Pat Burns"
         team1.innerHTML = "ANAHEIM<br>MIGHTY<>DUCKS"
         team2.innerHTML = "NEW JERSEY<br>DEVILS"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "NEW JERSEY WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -969,8 +969,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Scotty Bowman"
         team1.innerHTML = "CAROLINA<br>HURRICANES"
         team2.innerHTML = "DETROIT<br>RED WINGS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "DETROIT WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "23") {
@@ -1009,7 +1009,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Bob Hartley"
         team1.innerHTML = "NEW JERSEY<br>DEVILS"
         team2.innerHTML = "COLORADO<br>AVALANCHE"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "COLORADO WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -1049,8 +1049,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Larry Robinson"
         team1.innerHTML = "DALLAS<br>STARS"
         team2.innerHTML = "NEW JERSEY<br>DEVILS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "NEW JERSEY WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "25") {
@@ -1089,8 +1089,8 @@ function updatePlayerInfo() {
         manager2.textContent += "Ken Hitchcock"
         team1.innerHTML = "BUFFALO<br>SABRES"
         team2.innerHTML = "DALLAS<br>STARS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "DALLAS WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "26") {
@@ -1129,7 +1129,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Scotty Bowman"
         team1.innerHTML = "WASHINGTON<br>CAPITALS"
         team2.innerHTML = "DETROIT<br>RED WINGS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "DETROIT WINS SERIES"
+        OT.textContent = "4 - 0"
     }
 }
