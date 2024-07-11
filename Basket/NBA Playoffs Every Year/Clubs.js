@@ -146,15 +146,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/golden state.gif"
+        flag2.src = "/basket_img/logos/boston.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup22.png";
+        manager1.textContent += "Steve Kerr"
+        manager2.textContent += "Ime Udoka"
         team1.innerHTML = "GOLDEN STATE<br>WARRIORS"
         team2.innerHTML = "BOSTON<br>CELTICS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "GOLDEN STATE WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "3") {
@@ -182,15 +182,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/milwaukee.gif"
+        flag2.src = "/basket_img/logos/phoenix.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup21.png";
+        manager1.textContent += "Mike Budenholzer"
+        manager2.textContent += "Monty Williams"
         team1.innerHTML = "MILWAUKEE<br>BUCKS"
         team2.innerHTML = "PHOENIX<br>SUNS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "MILWAUKEE WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "4") {
@@ -218,15 +218,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/la lakers.gif"
+        flag2.src = "/basket_img/logos/miami.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup20.png";
+        manager1.textContent += "Frank Vogel"
+        manager2.textContent += "Erik Spoelstra"
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
         team2.innerHTML = "MIAMI<br>HEAT"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "LA LAKERS WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
 
@@ -255,15 +255,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/toronto.gif"
+        flag2.src = "/basket_img/logos/golden state.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup19.png";
+        manager1.textContent += "Nick Nurse"
+        manager2.textContent += "Steve Kerr"
         team1.innerHTML = "TORONTO<br>RAPTORS"
         team2.innerHTML = "GOLDEN STATE<br>WARRIORS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "TORONTO WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "6") {
@@ -291,15 +291,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/golden state.gif"
+        flag2.src = "/basket_img/logos/cleveland.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup18.png";
+        manager1.textContent += "Steve Kerr"
+        manager2.textContent += "Tyronn Lue"
         team1.innerHTML = "GOLDEN STATE<br>WARRIORS"
         team2.innerHTML = "CLEVELAND<br>CAVALIERS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "GOLDEN STATE WINS SERIES"
+        OT.textContent = "4 - 0"
     }
 
     if (selectedYear == "7") {
@@ -327,15 +327,16 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/golden state.gif"
+        flag2.src = "/basket_img/logos/cleveland.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup17.png";
+        manager1.textContent += "Steve Kerr"
+        manager2.textContent += "Tyronn Lue"
         team1.innerHTML = "GOLDEN STATE<br>WARRIORS"
         team2.innerHTML = "CLEVELAND<br>CAVALIERS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "GOLDEN STATE WINS SERIES"
+        OT.textContent = "4 - 1"
+
     }
 
     if (selectedYear == "8") {
@@ -363,14 +364,14 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/cleveland.gif"
+        flag2.src = "/basket_img/logos/golden state.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup16.png";
+        manager1.textContent += "Tyronn Lue"
+        manager2.textContent += "Steve Kerr"
         team1.innerHTML = "CLEVELAND<br>CAVALIERS"
         team2.innerHTML = "GOLDEN STATE<br>WARRIORS"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "CLEVELAND WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
@@ -399,15 +400,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/golden state.gif"
+        flag2.src = "/basket_img/logos/cleveland.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup15.png";
+        manager1.textContent += "Steve Kerr"
+        manager2.textContent += "David Blatt"
         team1.innerHTML = "GOLDEN STATE<br>WARRIORS"
         team2.innerHTML = "CLEVELAND<br>CAVALIERS"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "GOLDEN STATE WINS SERIES"
+        OT.textContent = "4 - 2"
     }
 
     if (selectedYear == "10") {
@@ -435,15 +436,15 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/.gif"
-        flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        flag1.src = "/basket_img/logos/san antonio.gif"
+        flag2.src = "/basket_img/logos/miami.gif"
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup14.png";
+        manager1.textContent += "Gregg Popovich"
+        manager2.textContent += "Erik Spoelstra"
         team1.innerHTML = "SAN ANTONIO<br>SPURS"
         team2.innerHTML = "MIAMI<br>HEAT"
-        result.innerHTML = "WINS SERIES"
-        OT.textContent = "4 - 3"
+        result.innerHTML = "SAN ANTONIO WINS SERIES"
+        OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "11") {
@@ -473,7 +474,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "MIAMI<br>HEAT"
@@ -509,7 +510,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "MIAMI<br>HEAT"
@@ -545,7 +546,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "DALLAS<br>MAVERICKS"
@@ -581,7 +582,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
@@ -617,7 +618,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
@@ -653,7 +654,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "BOSTON<br>CELTICS"
@@ -689,7 +690,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "SAN ANTONIO<br>SPURS"
@@ -725,7 +726,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "MIAMI<br>HEAT"
@@ -761,7 +762,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "SAN ANTONIO<br>SPURS"
@@ -797,7 +798,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "DETROIT<br>PISTONS"
@@ -833,7 +834,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "SAN ANTONIO<br>SPURS"
@@ -869,7 +870,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
@@ -905,7 +906,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
@@ -941,7 +942,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
@@ -977,7 +978,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "SAN ANTONIO<br>SPURS"
@@ -1013,7 +1014,7 @@ function updatePlayerInfo() {
 
         flag1.src = "/basket_img/logos/.gif"
         flag2.src = "/basket_img/logos/.gif"
-        sidepic.src = "/basket_img/logos/NBA Trophy/.gif";
+        sidepic.src = "/basket_img/logos/NBA Trophy/cup.png";
         manager1.textContent += ""
         manager2.textContent += ""
         team1.innerHTML = "CHICAGO<br>BULLS"
