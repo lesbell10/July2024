@@ -121,7 +121,7 @@ option {
 
 .formations {
     display: flex;
-    margin-left: -390px;
+    margin-left: -275px;
 }
 
 .rectangle {
@@ -156,7 +156,7 @@ option {
 .FL {
     position: absolute;
     left: 41%; /* Updated value */                
-    top: 37.5%; 
+    top: 38%; 
 }
 
 .FL2 {
@@ -168,7 +168,7 @@ option {
 .FC {
     position: absolute;
     left: 56%; /* Updated value */               
-    top: 37.5%; 
+    top: 38%; 
 }
 
 .FC2 {
@@ -180,7 +180,7 @@ option {
 .FR {
     position: absolute;
     left: 71%; /* Updated value */               
-    top: 37.5%;
+    top: 38%;
 }
 
 .FR2 {

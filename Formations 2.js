@@ -95,9 +95,9 @@ function Shorter() {
 
     divs.forEach(div => {
 
-        if (div.textContent === "L Paredes" || div.textContent === "Marquinhos" || div.textContent === "Henderson") {
+        if (div.textContent === "L Paredes" || div.textContent === "Marquinhos" || div.textContent === "Henderson" || div.textContent === "Andersson") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni" || div.textContent === "Camavinga" || div.textContent === "Calhanoglu" || div.textContent === "Alexander-Arnold") {
+        } else if (div.textContent === "Vestergaard" || div.textContent === "R Rodriguez" || div.textContent === "Tchouameni" || div.textContent === "Camavinga" || div.textContent === "Calhanoglu" || div.textContent === "Alexander-Arnold" || div.textContent === "Wijnaldum" || div.textContent === "Salihamidzic") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "Kochorashvili" || div.textContent === "van Bommel") {
             div.style.marginLeft = '-40px';
@@ -983,7 +983,7 @@ export function four_two_two_two2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) 
 }
 
 // 4-1-2-1-2
-export function four_three_one_two2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
+export function four_one_two_one_two2(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11) {
     clearFields2();
     twoSTL.textContent = n9;
     twoSTL2.src = "/football_img/players/" + twoSTL.textContent + ".webp";

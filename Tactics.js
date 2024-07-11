@@ -41,103 +41,109 @@ if (selectedYear == "3") {
 }
 
 // 4-2-2-2
-if (selectedYear == "3") {
+if (selectedYear == "4") {
     four_two_two_two("GK", "RB", "LB", "RCB", "LCB", "LCM", "RF", "RCM", "STR", "STL", "LF")
     sidepic.src = "/img/logos/team.webp";
 }
 
+// 4-1-2-1-2
+if (selectedYear == "5") {
+    four_three_one_two("GK", "RB", "LB", "RCB", "LCB", "DM", "AMC", "WR", "STL", "WL", "STR")
+    sidepic.src = "/img/logos/team.webp";
+}
+
 // 4-3-1-2
-if (selectedYear == "4") {
+if (selectedYear == "6") {
     four_three_one_two("GK", "RB", "LB", "RCB", "LCB", "CM", "AMC", "RCM", "STL", "LCM", "STR")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 4-3-2-1
-if (selectedYear == "5") {
+if (selectedYear == "7") {
     four_three_two_one("GK", "RB", "LB", "RCB", "LCB", "CM", "AMRC", "RCM", "STC", "LCM", "AMLC")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 4-1-3-2
-if (selectedYear == "0") {
+if (selectedYear == "8") {
     four_one_three_two("GK", "RB", "LB", "RCB", "LCB", "DM", "RCM", "CM", "STR", "STL", "LCM")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 4-1-3-2 att
-if (selectedYear == "0") {
+if (selectedYear == "9") {
     four_one_three_two("GK", "RB", "LB", "RCB", "LCB", "CM", "RF", "AMC", "STR", "STL", "LF")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 4-1-3-1-1
-if (selectedYear == "0") {
+if (selectedYear == "10") {
     four_one_three_two("GK", "RB", "LB", "RCB", "LCB", "DM", "RCM", "CM", "STC", "AMC", "LCM")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 4-4-1-1
-if (selectedYear == "0") {
+if (selectedYear == "11") {
     four_four_one_one("GK", "RB", "LB", "RCB", "LCB", "LCM", "WR", "RCM", "STC", "AMC", "WL")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 4-1-4-1
-if (selectedYear == "0") {
+if (selectedYear == "12") {
     four_one_four_one("GK", "RB", "LB", "RCB", "LCB", "DM", "WR", "RCM", "STC", "LCM", "WL")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 3-4-2-1
-if (selectedYear == "6") {
+if (selectedYear == "13") {
     three_four_two_one("GK", "WR", "WL", "LCB", "CB", "RCB", "AMRC", "LCM", "STC", "RCM", "AMLC")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 3-4-3
-if (selectedYear == "7") {
+if (selectedYear == "14") {
     three_four_three("GK", "WR", "WL", "LCB", "CB", "RCB", "RF", "LCM", "STC", "RCM", "LF")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 3-4-1-2
-if (selectedYear == "8") {
+if (selectedYear == "15") {
     three_four_one_two("GK", "WR", "WL", "LCB", "CB", "RCB", "AMC", "LCM", "STL", "RCM", "STR")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 3-5-2
-if (selectedYear == "9") {
+if (selectedYear == "16") {
     three_five_two("GK", "WR", "WL", "LCB", "CB", "RCB", "CM", "RCM", "STL", "LCM", "STR")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 5-2-2-1
-if (selectedYear == "6") {
+if (selectedYear == "17") {
     three_four_two_one("GK", "RB", "LB", "LCB", "CB", "RCB", "AMRC", "LCM", "STC", "RCM", "AMLC")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 5-2-3
-if (selectedYear == "7") {
+if (selectedYear == "18") {
     five_two_three("GK", "RB", "LB", "LCB", "CB", "RCB", "RF", "LCM", "STC", "RCM", "LF")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 5-2-1-2
-if (selectedYear == "8") {
+if (selectedYear == "19") {
     five_two_one_two("GK", "RB", "LB", "LCB", "CB", "RCB", "AMC", "LCM", "STL", "RCM", "STR")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 5-3-2
-if (selectedYear == "9") {
+if (selectedYear == "20") {
     five_three_two("GK", "RB", "LB", "LCB", "CB", "RCB", "CM", "RCM", "STL", "LCM", "STR")
     sidepic.src = "/img/logos/team.webp";
 }
 
 // 5-4-1
-if (selectedYear == "7") {
+if (selectedYear == "21") {
     five_four_one("GK", "RB", "LB", "LCB", "CB", "RCB", "WR", "LCM", "STC", "RCM", "WL")
     sidepic.src = "/img/logos/team.webp";
 }

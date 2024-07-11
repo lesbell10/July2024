@@ -181,7 +181,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "4") {
-        four_three_three("K Navas", "Kehrer", "Bernat", "Kimpembe", "T Silva", "Marquinhos", "Di Maria", "A Herrera", "Neymar", "L Paredes", "Mbappe")
+        four_three_three("K Navas", "Kehrer", "Bernat", "Kimpembe", "T Silva", "Marquinhos", "Di Maria", "A Herrera", "Mbappe", "L Paredes", "Neymar")
         four_two_three_one2("Neuer", "Kimmich", "A Davies", "Alaba", "Boateng", "Thiago", "Gnabry", "Goretzka", "Lewandowski", "Muller", "Coman")
         flag1.src = "/football_img/logos/psg.webp"
         flag2.src = "/football_img/logos/bayern munich.webp"
@@ -296,7 +296,7 @@ function updatePlayerInfo() {
         score.textContent = "4 - 1"
         OT.innerHTML = "after extra-time"
         goals1.innerHTML = "S Ramos 90+3' ⚽<br>Bale 110' ⚽<br>Marcelo 118' ⚽<br>C Ronaldo 120' (P) ⚽"
-        goals2.innerHTML = "D Godin 36'"
+        goals2.innerHTML = "D Godin 36' ⚽"
         date.textContent = "Lisbon, Portugal"
         flag2.style.right = "24%"
     }
@@ -336,7 +336,7 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "13") {
-        four_three_three("Valdes", "D Alves", "Abidal", "Pique", "Mascherano", "Busquets", "Pedro", "Xavi", "Messi", "Iniesta", "D Villa")
+        four_three_three("Valdes", "D Alves", "Abidal", "Pique", "Mascherano", "Busquets", "Messi", "Xavi", "D Villa", "Iniesta", "Pedro")
         four_four_one_one2("van der Sar", "F da Silva", "Evra", "Vidic", "Ferdinand", "Giggs", "Valencia", "Carrick", "Chicharito", "Rooney", "Park")
         flag1.src = "/football_img/logos/barcelona.webp"
         flag2.src = "/football_img/logos/man utd.webp"
@@ -371,7 +371,7 @@ function updatePlayerInfo() {
 
     if (selectedYear == "15") {
         four_three_three("Valdes", "Puyol", "Sylvinho", "Pique", "Y Toure", "Busquets", "Messi", "Xavi", "Eto'o", "Iniesta", "Henry")
-        four_three_three2("van der Sar", "O'Shea", "Evra", "Vidic", "Ferdinand", "Carrick", "Park", "Anderson", "C Ronaldo", "Giggs", "Rooney")
+        four_three_three2("van der Sar", "O'Shea", "Evra", "Vidic", "Ferdinand", "Carrick", "Park", "Anderson", "Rooney", "Giggs", "C Ronaldo")
         flag1.src = "/football_img/logos/barcelona.webp"
         flag2.src = "/football_img/logos/man utd.webp"
         sidepic.src = "/football_img/logos/champions league.png";
@@ -486,82 +486,82 @@ function updatePlayerInfo() {
     }
     if (selectedYear == "22") {
         four_one_three_two("HJ Butt", "Sebescen", "Placente", "Lucio", "Zivkovic", "Ramelow", "Schneider", "Ballack", "Neuville", "Basturk", "Brdaric")
-        four_three_one_two2("C Sanchez", "Salgado", "R Carlos", "Helguera", "Hierro", "Makelele", "Zidane", "Figo", "Morientes", "Solari", "Raul")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
+        four_one_two_one_two2("C Sanchez", "Salgado", "R Carlos", "Helguera", "Hierro", "Makelele", "Zidane", "Figo", "Morientes", "Solari", "Raul")
+        flag1.src = "/football_img/logos/leverkusen.webp"
+        flag2.src = "/football_img/logos/real madrid.webp"
         sidepic.src = "/football_img/logos/champions league.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        manager1.textContent += "Klaus Toppmoller"
+        manager2.textContent += "Vicente Del Bosque"
+        team1.innerHTML = "BAYER<br>LEVERKUSEN"
+        team2.innerHTML = "REAL MADRID"
+        score.textContent = "1 - 2"
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "Lucio 14' ⚽"
+        goals2.innerHTML = "Raul 8' ⚽<br>Zidane 45' ⚽"
         date.textContent = "Glasgow, Scotland"
     }
     if (selectedYear == "23") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
+        three_four_two_one("Kahn", "Sagnol", "Lizarazu", "Linke", "Andersson", "Kuffour", "Scholl", "Effenberg", "Elber", "Hargreaves", "Salihamidzic")
+        four_one_two_one_two2("Canizares", "Angloma", "Carboni", "Pellegrino", "Ayala", "Baraja", "Aimar", "Mendieta", "Carew", "K Gonzalez", "J Sanchez")
+        flag1.src = "/football_img/logos/bayern munich.webp"
+        flag2.src = "/football_img/logos/valencia.webp"
         sidepic.src = "/football_img/logos/champions league.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        manager1.textContent += "Bernd Dreher"
+        manager2.textContent += "Hector Cuper"
+        team1.innerHTML = "BAYERN MUNICH"
+        team2.innerHTML = "VALENCIA"
+        score.textContent = "1 - 1"
+        OT.innerHTML = "5-4 on penalties"
+        goals1.innerHTML = "Effenberg 50' (P) ⚽"
+        goals2.innerHTML = "Mendieta 3' (P) ⚽"
         date.textContent = "Milan, Italy"
     }
     if (selectedYear == "24") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
+        three_five_two("Casillas", "Salgado", "R Carlos", "I Campo", "Helguera", "Karanka", "Redondo", "McManaman", "Anelka", "Raul", "Morientes")
+        four_one_two_one_two2("Canizares", "Angloma", "Gerardo", "Pellegrino", "Djukic", "Farinos", "Gerard", "Mendieta", "C Lopez", "K Gonzalez", "Angulo")
+        flag1.src = "/football_img/logos/real madrid.webp"
+        flag2.src = "/football_img/logos/valencia.webp"
         sidepic.src = "/football_img/logos/champions league.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        manager1.textContent += "Vicente del Bosque"
+        manager2.textContent += "Hector Cuper"
+        team1.innerHTML = "REAL MADRID"
+        team2.innerHTML = "VALENCIA"
+        score.textContent = "3 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = ""
+        goals1.innerHTML = "Morientes 39' ⚽<br>McManaman 67' ⚽<br>Raul 75' ⚽"
         goals2.innerHTML = ""
-        date.textContent = "Saint-Denis (Paris), France"
+        date.textContent = "Paris, France"
     }
     if (selectedYear == "25") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
+        four_four_two("Schmeichel", "G Neville", "Irwin", "Stam", "R Johnsen", "N Butt", "Giggs", "Beckham", "Yorke", "An Cole", "Blomqvist")
+        five_two_three2("Kahn", "Babbel", "Tarnat", "Kuffour", "Matthaus", "Linke", "Basler", "Jeremies", "Jancker", "Effenberg", "Zickler")
+        flag1.src = "/football_img/logos/man utd.webp"
+        flag2.src = "/football_img/logos/bayern munich.webp"
         sidepic.src = "/football_img/logos/champions league.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        manager1.textContent += "Alex Ferguson"
+        manager2.textContent += "Ottmar Hitzfeld"
+        team1.innerHTML = "MANCHESTER<br>UNITED"
+        team2.innerHTML = "BAYERN MUNICH"
+        score.textContent = "2 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "Sheringham 90+1' ⚽<br>Solskjaer 90+3' ⚽"
+        goals2.innerHTML = "Basler 6' ⚽"
         date.textContent = "Barcelona, Spain"
     }
     if (selectedYear == "26") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
+        three_four_one_two("Peruzzi", "Di Livio", "Pessotto", "Montero", "Iuliano", "Torricelli", "Zidane", "Davids", "Del Piero", "Deschamps", "F Inzaghi")
+        four_three_one_two2("Illgner", "Panucci", "R Carlos", "Hierro", "Sanchis", "Redondo", "Raul", "Karembeu", "Mijatovic", "Seedorf", "Morientes")
+        flag1.src = "/football_img/logos/real madrid.webp"
+        flag2.src = "/football_img/logos/juventus.webp"
         sidepic.src = "/football_img/logos/champions league.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        manager1.textContent += "Marcello Lippi"
+        manager2.textContent += "Jupp Heynckes"
+        team1.innerHTML = "JUVENTUS"
+        team2.innerHTML = "REAL MADRID"
+        score.textContent = "0 - 1"
         OT.innerHTML = ""
         goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals2.innerHTML = "Mijatovic 66' ⚽"
         date.textContent = "Amsterdam, Netherlands"
     }
 }
