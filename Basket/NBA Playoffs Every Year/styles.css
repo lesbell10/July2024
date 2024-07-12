@@ -43,7 +43,7 @@ option {
 
 .result {
     text-align: center;
-    margin-top: -750px;
+    margin-top: -700px;
     font-size: 43px;
     text-shadow: 1px 1px 4px #000;
     font-weight: bold;
@@ -53,7 +53,7 @@ option {
     position: absolute;
     left: 47%;
     top: 33%;   
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     text-shadow: 1px 1px 4px #000;
 }
@@ -125,7 +125,7 @@ option {
 .rectangle {
     min-height:800px;
     min-width: 1100px;
-    margin-top: -110px;
+    margin-top: -70px;
 }
 
 .one{
@@ -136,10 +136,14 @@ option {
     position: relative;
 } 
 
-.rectangle > p, .rectangle img {
+.rectangle > p {
     font-size: 24px;
     text-shadow: 1px 1px 2px #000;
+
+}
+.rectangle img {
     height: 160px;
+    width: 106.66px;
 }
 
 .label h3 {

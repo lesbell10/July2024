@@ -528,7 +528,7 @@ function updatePlayerInfo() {
         team2.innerHTML = "VALENCIA"
         score.textContent = "3 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "Morientes 39' ⚽<br>McManaman 67' ⚽<br>Raul 75' ⚽"
+        goals1.innerHTML = "Morientes 39' <br>McManaman 67' ⚽<br>Raul 75' ⚽"
         goals2.innerHTML = ""
         date.textContent = "Paris, France"
     }

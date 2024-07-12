@@ -46,8 +46,8 @@ function updatePlayerInfo() {
     manager1.textContent = "Head Coach: "
     manager2.textContent = "Head Coach: "
     OT.style.textAlign = "center"
-    // flag1.style.left = "20%"
-    // flag2.style.right = "20%"
+    // flag1.style.left = "21%"
+    // flag2.style.right = "21%"
 
     if (selectedYear == "0") {
         PG.textContent = "J Holiday";
@@ -122,11 +122,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "2") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "S Curry";
+        SG.textContent = "K Thompson";
+        SF.textContent = "A Wiggins";
+        PF.textContent = "D Green";
+        C.textContent = "K Looney";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -134,11 +134,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "M Smart";
+        twoSG.textContent = "J Brown";
+        twoSF.textContent = "J Tatum";
+        twoPF.textContent = "A Horford";
+        twoC.textContent = "R Williams III";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -158,11 +158,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "3") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "J Holiday";
+        SG.textContent = "K Middleton";
+        SF.textContent = "PJ Tucker";
+        PF.textContent = "G Antetokounmpo";
+        C.textContent = "B Lopez";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -170,11 +170,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "C Paul";
+        twoSG.textContent = "D Booker";
+        twoSF.textContent = "Mik Bridges";
+        twoPF.textContent = "J Crowder";
+        twoC.textContent = "D Ayton";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -194,11 +194,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "4") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "K Caldwell-Pope";
+        SG.textContent = "D Green";
+        SF.textContent = "L James";
+        PF.textContent = "A Davis";
+        C.textContent = "D Howard";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -206,11 +206,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "G Dragic";
+        twoSG.textContent = "Du Robinson";
+        twoSF.textContent = "J Butler";
+        twoPF.textContent = "J Crowder";
+        twoC.textContent = "B Adebayo";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -231,11 +231,11 @@ function updatePlayerInfo() {
 
 
     if (selectedYear == "5") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "K Lowry";
+        SG.textContent = "Da Green";
+        SF.textContent = "K Leonard";
+        PF.textContent = "P Siakam";
+        C.textContent = "M Gasol";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -243,11 +243,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "S Curry";
+        twoSG.textContent = "K Thompson";
+        twoSF.textContent = "A Iguodala";
+        twoPF.textContent = "D Green";
+        twoC.textContent = "D Cousins";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -267,11 +267,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "6") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "S Curry";
+        SG.textContent = "K Thompson";
+        SF.textContent = "K Durant";
+        PF.textContent = "D Green";
+        C.textContent = "J McGee";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -279,11 +279,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "Ge Hill";
+        twoSG.textContent = "JR Smith";
+        twoSF.textContent = "L James";
+        twoPF.textContent = "K Love";
+        twoC.textContent = "T Thompson";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -303,11 +303,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "7") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "S Curry";
+        SG.textContent = "K Thompson";
+        SF.textContent = "K Durant";
+        PF.textContent = "D Green";
+        C.textContent = "Z Pachulia";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -315,11 +315,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "K Irving";
+        twoSG.textContent = "JR Smith";
+        twoSF.textContent = "L James";
+        twoPF.textContent = "K Love";
+        twoC.textContent = "T Thompson";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -340,11 +340,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "8") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "K Irving";
+        SG.textContent = "JR Smith";
+        SF.textContent = "L James";
+        PF.textContent = "K Love";
+        C.textContent = "T Thompson";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -352,11 +352,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "S Curry";
+        twoSG.textContent = "K Thompson";
+        twoSF.textContent = "H Barnes";
+        twoPF.textContent = "D Green";
+        twoC.textContent = "A Bogut";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -376,11 +376,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "9") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "S Curry";
+        SG.textContent = "K Thompson";
+        SF.textContent = "H Barnes";
+        PF.textContent = "D Green";
+        C.textContent = "A Bogut";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -388,11 +388,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "K Irving";
+        twoSG.textContent = "JR Smith";
+        twoSF.textContent = "L James";
+        twoPF.textContent = "T Thompson";
+        twoC.textContent = "T Mozgov";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -412,11 +412,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "10") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "T Parker";
+        SG.textContent = "Da Green";
+        SF.textContent = "K Leonard";
+        PF.textContent = "T Duncan";
+        C.textContent = "T Splitter";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -424,11 +424,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "M Chalmers";
+        twoSG.textContent = "D Wade";
+        twoSF.textContent = "L James";
+        twoPF.textContent = "R Lewis";
+        twoC.textContent = "C Bosh";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -448,11 +448,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "11") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "M Chalmers";
+        SG.textContent = "D Wade";
+        SF.textContent = "L James";
+        PF.textContent = "C Bosh";
+        C.textContent = "U Haslem";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -460,11 +460,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "T Parker";
+        twoSG.textContent = "Da Green";
+        twoSF.textContent = "K Leonard";
+        twoPF.textContent = "T Duncan";
+        twoC.textContent = "T Splitter";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -484,11 +484,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "12") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "M Chalmers";
+        SG.textContent = "D Wade";
+        SF.textContent = "L James";
+        PF.textContent = "C Bosh";
+        C.textContent = "U Haslem";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -496,11 +496,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "R Westbrook";
+        twoSG.textContent = "T Sefolosha";
+        twoSF.textContent = "K Durant";
+        twoPF.textContent = "S Ibaka";
+        twoC.textContent = "K Perkins";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -517,14 +517,16 @@ function updatePlayerInfo() {
         team2.innerHTML = "OKLAHOMA CITY<br>THUNDER"
         result.innerHTML = "MIAMI WINS SERIES"
         OT.textContent = "4 - 1"
+        flag1.style.right = "23%"
+        flag2.style.right = "23%"
     }
 
     if (selectedYear == "13") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "J Kidd";
+        SG.textContent = "D Stevenson";
+        SF.textContent = "S Marion";
+        PF.textContent = "D Nowitzki";
+        C.textContent = "T Chandler";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -532,11 +534,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "M Chalmers";
+        twoSG.textContent = "D Wade";
+        twoSF.textContent = "L James";
+        twoPF.textContent = "C Bosh";
+        twoC.textContent = "J Anthony";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -556,11 +558,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "14") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "D Fisher";
+        SG.textContent = "K Bryant";
+        SF.textContent = "R Artest";
+        PF.textContent = "P Gasol";
+        C.textContent = "A Bynum";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -568,11 +570,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "R Rondo";
+        twoSG.textContent = "R Allen";
+        twoSF.textContent = "P Pierce";
+        twoPF.textContent = "K Garnett";
+        twoC.textContent = "K Perkins";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -580,7 +582,7 @@ function updatePlayerInfo() {
         twoPF2.src = "/basket_img/players/" + twoPF.textContent + ".jpg";
         twoC2.src = "/basket_img/players/" + twoC.textContent + ".jpg";
 
-        flag1.src = "/basket_img/logos/la lakres.gif"
+        flag1.src = "/basket_img/logos/la lakers.gif"
         flag2.src = "/basket_img/logos/boston.gif"
         sidepic.src = "/basket_img/logos/NBA Trophy/cup10.png";
         manager1.textContent += "Phil Jackson"
@@ -592,11 +594,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "15") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "D Fisher";
+        SG.textContent = "K Bryant";
+        SF.textContent = "T Ariza";
+        PF.textContent = "P Gasol";
+        C.textContent = "A Bynum";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -604,11 +606,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "R Alston";
+        twoSG.textContent = "C Lee";
+        twoSF.textContent = "H Turkoglu";
+        twoPF.textContent = "R Lewis";
+        twoC.textContent = "D Howard";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -623,16 +625,16 @@ function updatePlayerInfo() {
         manager2.textContent += "Stan Van Gundy"
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
         team2.innerHTML = "ORLANDO<br>MAGIC"
-        result.innerHTML = "LOA ANGELES WINS SERIES"
+        result.innerHTML = "LOS ANGELES WINS SERIES"
         OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "16") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "R Rondo";
+        SG.textContent = "R Allen";
+        SF.textContent = "P Pierce";
+        PF.textContent = "K Garnett";
+        C.textContent = "K Perkins";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -640,11 +642,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "D Fisher";
+        twoSG.textContent = "K Bryant";
+        twoSF.textContent = "V Radmanovic";
+        twoPF.textContent = "L Odom";
+        twoC.textContent = "P Gasol";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -664,11 +666,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "17") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "T Parker";
+        SG.textContent = "M Finley";
+        SF.textContent = "B Bowen";
+        PF.textContent = "T Duncan";
+        C.textContent = "F Oberto";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -676,11 +678,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "D Gibson";
+        twoSG.textContent = "S Pavlovic";
+        twoSF.textContent = "L James";
+        twoPF.textContent = "D Gooden";
+        twoC.textContent = "Z Ilgauskas";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -700,11 +702,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "18") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "J Williams";
+        SG.textContent = "D Wade";
+        SF.textContent = "J Posey";
+        PF.textContent = "U Haslem";
+        C.textContent = "S O'Neal";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -712,11 +714,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "J Terry";
+        twoSG.textContent = "D Harris";
+        twoSF.textContent = "Jo Howard";
+        twoPF.textContent = "D Nowitzki";
+        twoC.textContent = "E Dampier";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -736,11 +738,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "19") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "T Parker";
+        SG.textContent = "M Ginobili";
+        SF.textContent = "B Bowen";
+        PF.textContent = "T Duncan";
+        C.textContent = "N Mohammed";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -748,11 +750,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "C Billups";
+        twoSG.textContent = "R Hamilton";
+        twoSF.textContent = "T Prince";
+        twoPF.textContent = "R Wallace";
+        twoC.textContent = "B Wallace";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -767,16 +769,16 @@ function updatePlayerInfo() {
         manager2.textContent += "Larry Brown"
         team1.innerHTML = "SAN ANTONIO<br>SPURS"
         team2.innerHTML = "DETROIT<br>PISTONS"
-        result.innerHTML = "SAN ANTNIO WINS SERIES"
+        result.innerHTML = "SAN ANTONIO WINS SERIES"
         OT.textContent = "4 - 3"
     }
 
     if (selectedYear == "20") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "C Billups";
+        SG.textContent = "R Hamilton";
+        SF.textContent = "T Prince";
+        PF.textContent = "R Wallace";
+        C.textContent = "B Wallace";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -784,11 +786,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "D Fisher";
+        twoSG.textContent = "K Bryant";
+        twoSF.textContent = "D George";
+        twoPF.textContent = "K Malone";
+        twoC.textContent = "S O'Neal";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -808,11 +810,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "21") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "T Parker";
+        SG.textContent = "S Jackson";
+        SF.textContent = "B Bowen";
+        PF.textContent = "T Duncan";
+        C.textContent = "D Robinson";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -820,11 +822,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "J Kidd";
+        twoSG.textContent = "K Kittles";
+        twoSF.textContent = "R Jefferson";
+        twoPF.textContent = "Ke Martin";
+        twoC.textContent = "D Mutombo";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -844,11 +846,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "22") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "D Fisher";
+        SG.textContent = "K Bryant";
+        SF.textContent = "R Fox";
+        PF.textContent = "R Horry";
+        C.textContent = "S O'Neal";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -856,11 +858,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "J Kidd";
+        twoSG.textContent = "K Kittles";
+        twoSF.textContent = "K Van Horn";
+        twoPF.textContent = "Ke Martin";
+        twoC.textContent = "T MacCulloch";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -880,11 +882,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "23") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "D Fisher";
+        SG.textContent = "K Bryant";
+        SF.textContent = "R Fox";
+        PF.textContent = "H Grant";
+        C.textContent = "S O'Neal";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -892,11 +894,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "A Iverson";
+        twoSG.textContent = "A McKie";
+        twoSF.textContent = "J Jones";
+        twoPF.textContent = "T Hill";
+        twoC.textContent = "D Mutombo";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -911,16 +913,16 @@ function updatePlayerInfo() {
         manager2.textContent += "Larry Brown"
         team1.innerHTML = "LOS ANGELES<br>LAKERS"
         team2.innerHTML = "PHILADELPHIA<br>76ERS"
-        result.innerHTML = "LA LAKAERS WINS SERIES"
+        result.innerHTML = "LA LAKERS WINS SERIES"
         OT.textContent = "4 - 1"
     }
 
     if (selectedYear == "24") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "R Harper";
+        SG.textContent = "K Bryant";
+        SF.textContent = "G Rice";
+        PF.textContent = "AC Green";
+        C.textContent = "S O'Neal";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -928,11 +930,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "M Jackson";
+        twoSG.textContent = "R Miller";
+        twoSF.textContent = "J Rose";
+        twoPF.textContent = "D Davis";
+        twoC.textContent = "R Smits";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -952,11 +954,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "25") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "A Johnson";
+        SG.textContent = "M Elie";
+        SF.textContent = "S Elliott";
+        PF.textContent = "T Duncan";
+        C.textContent = "D Robinson";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -964,11 +966,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "C Ward";
+        twoSG.textContent = "A Houston";
+        twoSF.textContent = "L Sprewell";
+        twoPF.textContent = "L Johnson";
+        twoC.textContent = "M Camby";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -988,11 +990,11 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "26") {
-        PG.textContent = "";
-        SG.textContent = "";
-        SF.textContent = "";
-        PF.textContent = "";
-        C.textContent = "";
+        PG.textContent = "R Harper";
+        SG.textContent = "M Jordan";
+        SF.textContent = "S Pippen";
+        PF.textContent = "D Rodman";
+        C.textContent = "L Longley";
 
         PG2.src = "/basket_img/players/" + PG.textContent + ".jpg";
         SG2.src = "/basket_img/players/" + SG.textContent + ".jpg";
@@ -1000,11 +1002,11 @@ function updatePlayerInfo() {
         PF2.src = "/basket_img/players/" + PF.textContent + ".jpg";
         C2.src = "/basket_img/players/" + C.textContent + ".jpg";
 
-        twoPG.textContent = "";
-        twoSG.textContent = "";
-        twoSF.textContent = "";
-        twoPF.textContent = "";
-        twoC.textContent = "";
+        twoPG.textContent = "J Stockton";
+        twoSG.textContent = "J Hornacek";
+        twoSF.textContent = "Br Russell";
+        twoPF.textContent = "K Malone";
+        twoC.textContent = "G Ostertag";
 
         twoPG2.src = "/basket_img/players/" + twoPG.textContent + ".jpg";
         twoSG2.src = "/basket_img/players/" + twoSG.textContent + ".jpg";
@@ -1019,7 +1021,7 @@ function updatePlayerInfo() {
         manager2.textContent += "Jerry Sloan"
         team1.innerHTML = "CHICAGO<br>BULLS"
         team2.innerHTML = "UTAH<br>JAZZ"
-        result.innerHTML = "WINS SERIES"
+        result.innerHTML = "CHICAGO WINS SERIES"
         OT.textContent = "4 - 2"
     }
 }
