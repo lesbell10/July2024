@@ -56,98 +56,176 @@ function updatePlayerInfo() {
     manager.textContent = "Head Coach: "
 
     if (selectedYear == "0") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        four_two_three_one("Guzan", "Brooks Lennon", "Caleb Wiley", "Derrick Williams", "Niah Cobb", "Bartosz Slisz", "", "Tristan Muyumba", "Daniel Rios", "T Almada", "Saba Lobjanidze");
+        sidepic.src = "/football_img/logos/mls/atlanta.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "1") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        four_two_three_one("Brad Stuver", "Jon Gallagher", "Guilherme Biro", "Julio Cascante", "Brendan Hines-Ike", "Daniel Pereira", "Owen Wolff", "Alexander Ring", "Diego Rubio", "Sebastian Driussi", "Jader Obrian");
+        sidepic.src = "/football_img/logos/mls/austin.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "2") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        three_five_two("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/charlotte.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "3") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/chicago.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "4") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        three_four_two_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/montreal.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "5") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        three_five_two("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/cincinatti.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "6") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/colorado.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "7") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        three_four_two_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/columbus.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "8") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/dc united.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "9") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/dallas.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "10") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/houston.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "11") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/miami.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "12") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/la galaxy.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "13") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/lafc.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "14") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/minnesota.png";
         manager.textContent += "";
     }
 
     if (selectedYear == "15") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/mls/nashville.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "16") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/new england.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "17") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/nyc.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "18") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/new york.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "19") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/orlando.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "20") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/philadelphia.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "21") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/portland.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "22") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/real salt lake.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "23") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/san jose.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "24") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/seattle.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "25") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/kansas.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "26") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/st louis.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "27") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/toronto.png";
+        manager.textContent += "";
+    }
+
+    if (selectedYear == "28") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "");
+        sidepic.src = "/football_img/logos/mls/vancouver.png";
         manager.textContent += "";
     }
 }
