@@ -48,20 +48,40 @@ function Shorter() {
 
     divs.forEach(div => {
 
-        if (div.textContent === "Zubimendi" || div.textContent === "") {
+        if (div.textContent === "A Malanda" || div.textContent === "" || div.textContent === "" || div.textContent === "M Laborda") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk" || div.textContent === "Kossounou" || div.textContent === "Guendouzi" || div.textContent === "Tchouameni" || div.textContent === "Z Anguissa" || div.textContent === "Szoboszlai") {
+        } else if (div.textContent === "J Waterman" || div.textContent === "R Camacho" || div.textContent === "S Busquets") {
             div.style.marginLeft = '-25px';
-        } else if (div.textContent === "Milinkovic-Savic" || div.textContent === "R Rodriguez" || div.textContent === "C McGregor") {
+        } else if (div.textContent === "A Westwood" || div.textContent === "") {
             div.style.marginLeft = '-40px';
-        } else if (div.textContent === "Vestergaard" || div.textContent === "Kochorashvili") {
+        } else if (div.textContent === "G Campbell" || div.textContent === "Y Cheberko" || div.textContent === "T Blackmon") {
             div.style.marginLeft = '-50px';
         } else {
             div.style.marginLeft = '0';
         }
-
     });
 }
+
+
+// function Shorter() {
+//     const divs = document.querySelectorAll('.rectangle > div');
+
+//     divs.forEach(div => {
+
+//         if (div.textContent === "Zubimendi" || div.textContent === "") {
+//             div.style.marginLeft = '-10px'
+//         } else if (div.textContent === "Christensen" || div.textContent === "Dawidowicz" || div.textContent === "Romanczuk" || div.textContent === "Kossounou" || div.textContent === "Guendouzi" || div.textContent === "Tchouameni" || div.textContent === "Z Anguissa" || div.textContent === "Szoboszlai") {
+//             div.style.marginLeft = '-25px';
+//         } else if (div.textContent === "Milinkovic-Savic" || div.textContent === "R Rodriguez" || div.textContent === "C McGregor") {
+//             div.style.marginLeft = '-40px';
+//         } else if (div.textContent === "Vestergaard" || div.textContent === "Kochorashvili") {
+//             div.style.marginLeft = '-50px';
+//         } else {
+//             div.style.marginLeft = '0';
+//         }
+
+//     });
+// }
 
 function clearFields() {
     STL.textContent = "";
