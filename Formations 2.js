@@ -97,7 +97,9 @@ function Shorter() {
 
         if (div.textContent === "Katsouranis" || div.textContent === "Zagorakis" || div.textContent === "" || div.textContent === "W Carvalho") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "" || div.textContent === "") {
+        } else if (div.textContent === "Tchouameni" || div.textContent === "") {
+            div.style.marginLeft = '-15px';
+        } else if (div.textContent === "" || div.textContent === "Camavinga") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-40px';

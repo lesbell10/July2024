@@ -121,8 +121,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2024.png";
         manager1.textContent += "Luis de la Fuente"
         manager2.textContent += "Gareth Southgate"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += ""
+        substitutes2.innerHTML += ""
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "ENGLAND"
         score.textContent = ""
@@ -140,8 +140,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2020.png";
         manager1.textContent += "Roberto Mancini"
         manager2.textContent += "Gareth Southgate"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += "A Meret, Sirigu, R Tolói, F Acerbi, Bastoni<br> Florenzi, Cristante, Locatelli, M Pessina, Berardi, Bernardeschi, Belotti"
+        substitutes2.innerHTML += "S Johnstone, Ramsdale, T Mings, C Coady, R James<br> J Henderson, J Bellingham, J Sancho, Rashford, Grealish, Saka, Calvert-Lewin"
         team1.innerHTML = "ITALY"
         team2.innerHTML = "ENGLAND"
         score.textContent = "1 - 1"
@@ -159,8 +159,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2016.png";
         manager1.textContent += "Fernando Santos"
         manager2.textContent += "Didier Deschamps"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += "Eduardo, A Lopes, B Alves, R Carvalho, Eliseu<br> Vieirinha, D Pereira, An Gomes, J Moutinho, Quaresma, Rafa, Éder"
+        substitutes2.innerHTML += "Costil, Mandanda, E Mangala, A Rami, Digne<br> Jallet, Kanté, Schneiderlin, Cabaye, Coman, Gignac, Martial"
         team1.innerHTML = "PORTUGAL"
         team2.innerHTML = "FRANCE"
         score.textContent = "1 - 0"
@@ -178,8 +178,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2012.png";
         manager1.textContent += "Vicente del Bosque"
         manager2.textContent += "Cesare Prandelli"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += "P Reina, Valdés, R Albiol, Juanfran, J Navas<br> J Martínez, Cazorla, Mata, Pedro, F Llorente, Á Negredo, F Torres"
+        substitutes2.innerHTML += "M De Sanctis, Sirigu, A Ogbonna, F Balzaretti, C Maggio<br> T Motta, A Nocerino, E Giaccherini, A Diamanti, F Borini, S Giovinco, A Di Natale"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "ITALY"
         score.textContent = "4 - 0"
@@ -197,8 +197,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2008.png";
         manager1.textContent += "Joachim Low"
         manager2.textContent += "Luis Aragones"
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += "Adler, Enke, Westermann, M Jansen, Fritz<br> Rolfes, Borowski, Trochowski, Odonkor, M Gómez, Kuranyi, Neuville"
+        substitutes2.innerHTML += "A Palop, P Reina, Juanito, R Albiol, F Navarro<br> Á Arbeloa, X Alonso, R de la Red, Cazorla, D Güiza, D Villa, S García"
         team1.innerHTML = "GERMANY"
         team2.innerHTML = "SPAIN"
         score.textContent = "0 - 1"
@@ -216,8 +216,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2004.png";
         manager1.textContent += "Luiz Felipe Scolari"
         manager2.textContent += "Otto Rehhagel"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += "J Moreira, Quim, Beto, F Couto, R Jorge<br> P Ferreira, Petit, T Mendes, R Costa, Simão, N Gomes, H Postiga"
+        substitutes2.innerHTML += "K Chalkias, T Katergiannakis, N Dabizas, G Goumas<br> S Venetidis, P Kafes, V Lakis, V Tsiartas, G Georgiadis, D Papadopoulos"
         team1.innerHTML = "PORTUGAL"
         team2.innerHTML = "GREECE"
         score.textContent = "0 - 1"
@@ -235,8 +235,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2000.png";
         manager1.textContent += "Roger Lemerre"
         manager2.textContent += "Dino Zoff"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
+        substitutes1.innerHTML += "B Lama, U Ramé, F Leboeuf, V Candela<br> C Karembeu, E Petit, R Pirès, J Micoud, S Wiltord, Anelka, Trezeguet"
+        substitutes2.innerHTML += "C Abbiati, F Antonioli, C Ferrara, P Negro<br> Ambrosini, A Conte, Di Livio, Del Piero, F Inzaghi, Montella"
         team1.innerHTML = "FRANCE"
         team2.innerHTML = "ITALY"
         score.textContent = "2 - 1"
@@ -245,5 +245,6 @@ function updatePlayerInfo() {
         goals2.innerHTML = "Delvecchio 55' ⚽"
         date.textContent = "02 / 07 / 2000"
     }
-    substitutes.innerHTML = substitutes.innerHTML.replace(/,/g, ' •');
+    substitutes1.innerHTML = substitutes1.innerHTML.replace(/,/g, ' •');
+    substitutes2.innerHTML = substitutes2.innerHTML.replace(/,/g, ' •');
 }
