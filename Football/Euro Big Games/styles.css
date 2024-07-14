@@ -78,18 +78,16 @@ option {
 
 .flag1 {
     position: absolute;
-    height: 10%;
-    width:7%;
-    left: 24%;
-    top: 5%;
+    height: 14%;
+    left: 23%;
+    top: 2%;
 }
 
 .flag2 {
     position: absolute;
-    height: 10%;
-    width:7%;
-    right: 24%;
-    top: 5%;
+    height: 14%;
+    right: 23%;
+    top: 2%;
 }
 
 .manager1 {

@@ -48,6 +48,15 @@ option {
     text-shadow: 1px 1px 3px #000;
 }
 
+.substitutes {
+    font-size: 32px;
+    position: absolute;
+    bottom:50px;
+    left: 90px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
 .sidepic {
     position: absolute;
     top: 38%;

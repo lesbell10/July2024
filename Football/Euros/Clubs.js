@@ -68,6 +68,8 @@ const flag1 = document.querySelector(".flag1")
 const flag2 = document.querySelector(".flag2")
 const manager1 = document.querySelector(".manager1")
 const manager2 = document.querySelector(".manager2")
+const substitutes1 = document.querySelector(".substitutes1")
+const substitutes2 = document.querySelector(".substitutes2")
 const score = document.querySelector(".score");
 const OT = document.querySelector(".OT")
 const team1 = document.querySelector(".team1")
@@ -107,6 +109,8 @@ function updatePlayerInfo() {
     selectedYear = yearSelector.value;
     manager1.textContent = "Head Coach: "
     manager2.textContent = "Head Coach: "
+    substitutes1.innerHTML = "Substitutes: "
+    substitutes2.innerHTML = "Substitutes: "
     OT.style.textAlign = "center"
 
     if (selectedYear == "0") {
@@ -117,6 +121,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2024.png";
         manager1.textContent += "Luis de la Fuente"
         manager2.textContent += "Gareth Southgate"
+        substitutes1.innerHTML += "<br>"
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "ENGLAND"
         score.textContent = ""
@@ -134,6 +140,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2020.png";
         manager1.textContent += "Roberto Mancini"
         manager2.textContent += "Gareth Southgate"
+        substitutes1.innerHTML += "<br>"
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "ITALY"
         team2.innerHTML = "ENGLAND"
         score.textContent = "1 - 1"
@@ -151,6 +159,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2016.png";
         manager1.textContent += "Fernando Santos"
         manager2.textContent += "Didier Deschamps"
+        substitutes1.innerHTML += "<br>"
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "PORTUGAL"
         team2.innerHTML = "FRANCE"
         score.textContent = "1 - 0"
@@ -168,6 +178,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2012.png";
         manager1.textContent += "Vicente del Bosque"
         manager2.textContent += "Cesare Prandelli"
+        substitutes1.innerHTML += "<br>"
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "ITALY"
         score.textContent = "4 - 0"
@@ -185,6 +197,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2008.png";
         manager1.textContent += "Joachim Low"
         manager2.textContent += "Luis Aragones"
+        substitutes1.innerHTML += ""
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "GERMANY"
         team2.innerHTML = "SPAIN"
         score.textContent = "0 - 1"
@@ -202,6 +216,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2004.png";
         manager1.textContent += "Luiz Felipe Scolari"
         manager2.textContent += "Otto Rehhagel"
+        substitutes1.innerHTML += "<br>"
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "PORTUGAL"
         team2.innerHTML = "GREECE"
         score.textContent = "0 - 1"
@@ -219,6 +235,8 @@ function updatePlayerInfo() {
         sidepic.src = "/football_img/logos/euro2000.png";
         manager1.textContent += "Roger Lemerre"
         manager2.textContent += "Dino Zoff"
+        substitutes1.innerHTML += "<br>"
+        substitutes2.innerHTML += "<br>"
         team1.innerHTML = "FRANCE"
         team2.innerHTML = "ITALY"
         score.textContent = "2 - 1"
@@ -227,4 +245,5 @@ function updatePlayerInfo() {
         goals2.innerHTML = "Delvecchio 55' ⚽"
         date.textContent = "02 / 07 / 2000"
     }
+    substitutes.innerHTML = substitutes.innerHTML.replace(/,/g, ' •');
 }
