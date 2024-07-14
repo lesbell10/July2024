@@ -120,6 +120,7 @@ option {
     bottom: 90px;
     right: 130px;
     text-shadow: 1px 1px 1px #000;
+    text-align: right;
 }
 
 .sidepic {

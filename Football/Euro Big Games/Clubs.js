@@ -116,27 +116,27 @@ function updatePlayerInfo() {
     flag1.style.left = "23%"
     flag2.style.right = "23%"
     label.textContent = "GROUP STAGE"
+    label.style.left = "35.5%"
 
     if (selectedYear == "0") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += "lolo,olkooooooooooooo<br>ollol<br>oloolool"
-        substitutes2.innerHTML += "<br>"
-        substitutes1.innerHTML += "<br>"
-        substitutes2.innerHTML += "<br>"
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        four_three_three("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "Rodri", "Yamal", "Pedri", "Morata", "F Ruiz", "N Williams")
+        four_three_three2("Donnarumma", "Di Lorenzo", "Dimarco", "Calafiori", "Bastoni", "Jorginho", "Chiesa", "Frattesi", "Scamacca", "Barella", "Pellegrini")
+        flag1.src = "/football_img/logos/spain.webp"
+        flag2.src = "/football_img/logos/italy.webp"
+        sidepic.src = "/img/logos/euro 2024.png";
+        manager1.textContent += "Luis de la Fuente"
+        manager2.textContent += "Luciano Spalletti"
+        substitutes1.innerHTML += "M Merino, F Torres, A Baena, M Oyarzabal, A Perez, D Raya, Nacho<br> D Vivian, Joselu, D Olmo, A Grimaldo, A Remiro, M Zubimendi, J Navas, F Lopez"
+        substitutes2.innerHTML += "G Raspadori, B Cristante, M Retegui, M Zaccagni, A Cambiaso, A Buongiorno<br> F Gatti, G Vicario, M Darmian, R Bellanova, G Mancini, N Fagioli, S El Shaarawy, M Folorunsho<br>"
+        team1.textContent = "SPAIN"
+        team2.textContent = "ITALY"
+        score.textContent = "1 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
+        goals1.innerHTML = "Calafiori (OG) 55' ⚽"
         goals2.innerHTML = "⚽"
-        date.textContent = ""
+        date.textContent = "20 / 06 / 2024"
         label.textContent = "GROUP STAGE"
+        label.style.left = "38%"
     }
 
     if (selectedYear == "1") {
@@ -153,10 +153,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
         label.textContent = "GROUP STAGE"
+        label.style.left = "38%"
     }
 
     if (selectedYear == "2") {
@@ -173,10 +174,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
         label.textContent = "ROUND OF 16"
+        label.style.left = "39%"
     }
 
     if (selectedYear == "3") {
@@ -193,10 +195,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
-        label.textContent = "GROUP STAGE"
+        label.textContent = "QUARTER FINALS"
+        label.style.left = "36%"
     }
 
     if (selectedYear == "4") {
@@ -213,10 +216,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
-        label.textContent = "GROUP STAGE"
+        label.textContent = "QUARTER FINALS"
+        label.style.left = "36%"
     }
 
     if (selectedYear == "5") {
@@ -233,10 +237,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
-        label.textContent = "GROUP STAGE"
+        label.textContent = "SEMI FINALS"
+        label.style.left = "39%"
     }
 
     if (selectedYear == "6") {
@@ -253,10 +258,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
-        label.textContent = "GROUP STAGE"
+        label.textContent = "SEMI FINALS"
+        label.style.left = "39%"
     }
 
     if (selectedYear == "7") {
@@ -273,10 +279,11 @@ function updatePlayerInfo() {
         team2.innerHTML = ""
         score.textContent = ""
         OT.innerHTML = ""
-        goals1.innerHTML = ""
-        goals2.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
         date.textContent = ""
-        label.textContent = "GROUP STAGE"
+        label.textContent = "FINAL"
+        label.style.left = "43%"
     }
     substitutes.innerHTML = substitutes.innerHTML.replace(/,/g, ' •');
 }
