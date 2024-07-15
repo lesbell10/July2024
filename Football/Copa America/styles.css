@@ -125,11 +125,11 @@ option {
 
 .sidepic {
     position: absolute;
-    top: 45%;
-    left:42%;
+    top: 42%;
+    left:40%;
     object-fit: contain;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 .formations {
@@ -185,9 +185,8 @@ option {
 }
 
 .date {
-    position: absolute;
-    left: 46%;
-    top: 15%;
+    margin-top: -745px;
+    text-align: center;
     font-size: 24px;
     text-shadow: 1px 1px 2px #000;
 }

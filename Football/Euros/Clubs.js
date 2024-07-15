@@ -114,29 +114,29 @@ function updatePlayerInfo() {
     OT.style.textAlign = "center"
 
     if (selectedYear == "0") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/spain.gif"
-        flag2.src = "/football_img/logos/england.gif"
-        sidepic.src = "/football_img/logos/euro2024.png";
+        four_two_three_one("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "F Ruiz", "Yamal", "Rodri", "Morata", "D Olmo", "N Williams")
+        four_two_three_one2("Pickford", "Walker", "Shaw", "Guehi", "Stones", "D Rice", "Saka", "Mainoo", "Kane", "Foden", "Bellingham")
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/england.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
         manager1.textContent += "Luis de la Fuente"
         manager2.textContent += "Gareth Southgate"
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
+        substitutes1.innerHTML += "D Raya, Á Remiro, N Fernández<br> D Vivian, A Grimaldo, J Navas, M Zubimendi<br> F López, Merino, Á Baena, Fe Torres, Joselu, M Oyarzabal"
+        substitutes2.innerHTML += "D Henderson, Ramsdale, L Dunk<br> J Gomez, E Konsa, Alexander-Arnold, K Trippier, A Wharton<br> C Gallagher, E Eze, Palmer, A Gordon, J Bowen, I Toney, O Watkins"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "ENGLAND"
-        score.textContent = ""
+        score.textContent = "2 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
+        goals1.innerHTML = "N Williams 47' ⚽<br>Oyarzabal 86' ⚽"
+        goals2.innerHTML = "C Palmer 73' ⚽"
         date.textContent = "14 / 07 / 2024"
     }
 
     if (selectedYear == "1") {
         four_three_three("Donnarumma", "Di Lorenzo", "Emerson P", "Chiellini", "Bonucci", "Jorginho", "Chiesa", "Verratti", "Immobile", "Barella", "Insigne")
         three_four_two_one2("Pickford", "Trippier", "Shaw", "Stones", "Maguire", "Walker", "Sterling", "K Phillips", "Kane", "D Rice", "Mount")
-        flag1.src = "/football_img/logos/italy.gif"
-        flag2.src = "/football_img/logos/england.gif"
+        flag1.src = "/football_img/logos/italy.png"
+        flag2.src = "/football_img/logos/england.png"
         sidepic.src = "/football_img/logos/euro2020.png";
         manager1.textContent += "Roberto Mancini"
         manager2.textContent += "Gareth Southgate"
@@ -154,8 +154,8 @@ function updatePlayerInfo() {
     if (selectedYear == "2") {
         four_one_three_two("R Patricio", "C Soares", "Guerreiro", "Fonte", "K Pepe", "W Carvalho", "Sanches", "Ad Silva", "Nani", "C Ronaldo", "Jo Mario")
         four_two_three_one2("Lloris", "Sagna", "Evra", "Umtiti", "Koscielny", "Matuidi", "M Sissoko", "Pogba", "Giroud", "Griezmann", "Payet")
-        flag1.src = "/football_img/logos/portugal.gif"
-        flag2.src = "/football_img/logos/france.gif"
+        flag1.src = "/football_img/logos/portugal.png"
+        flag2.src = "/football_img/logos/france.png"
         sidepic.src = "/football_img/logos/euro2016.png";
         manager1.textContent += "Fernando Santos"
         manager2.textContent += "Didier Deschamps"
@@ -173,8 +173,8 @@ function updatePlayerInfo() {
     if (selectedYear == "3") {
         four_three_three("Casillas", "Arbeloa", "Alba", "Pique", "S Ramos", "Busquets", "D Silva", "X Alonso", "Fabregas", "Xavi", "Iniesta")
         four_three_one_two2("Buffon", "Abate", "Chiellini", "Barzagli", "Bonucci", "Pirlo", "Montolivo", "Marchisio", "Balotelli", "De Rossi", "Cassano")
-        flag1.src = "/football_img/logos/spain.gif"
-        flag2.src = "/football_img/logos/italy.gif"
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/italy.png"
         sidepic.src = "/football_img/logos/euro2012.png";
         manager1.textContent += "Vicente del Bosque"
         manager2.textContent += "Cesare Prandelli"
@@ -192,8 +192,8 @@ function updatePlayerInfo() {
     if (selectedYear == "4") {
         four_two_three_one("Lehmann", "Friedrich", "Lahm", "Mertesacker", "Metzelder", "Frings", "Schweinsteiger", "Hitzlsperger", "Klose", "Ballack", "Podolski")
         four_three_three2("Casillas", "S Ramos", "Capdevila", "Puyol", "Marchena", "Senna", "D Silva", "Xavi", "Torres", "Fabregas", "Iniesta")
-        flag1.src = "/football_img/logos/germany.gif"
-        flag2.src = "/football_img/logos/spain.gif"
+        flag1.src = "/football_img/logos/germany.png"
+        flag2.src = "/football_img/logos/spain.png"
         sidepic.src = "/football_img/logos/euro2008.png";
         manager1.textContent += "Joachim Low"
         manager2.textContent += "Luis Aragones"
@@ -211,7 +211,7 @@ function updatePlayerInfo() {
     if (selectedYear == "5") {
         four_three_three("Ricardo", "Miguel", "N Valente", "Carvalho", "J Andrade", "Costinha", "Figo", "Maniche", "Pauleta", "Deco", "C Ronaldo")
         four_three_three2("Nikopolidis", "Seitaridis", "Fyssas", "Dellas", "Kapsis", "Katsouranis", "Charisteas", "Basinas", "Vryzas", "Zagorakis", "Giannakopoulos")
-        flag1.src = "/football_img/logos/portugal.gif"
+        flag1.src = "/football_img/logos/portugal.png"
         flag2.src = "/football_img/logos/greece.png"
         sidepic.src = "/football_img/logos/euro2004.png";
         manager1.textContent += "Luiz Felipe Scolari"
@@ -230,8 +230,8 @@ function updatePlayerInfo() {
     if (selectedYear == "6") {
         four_two_three_one("Barthez", "Thuram", "Lizarazu", "Blanc", "Desailly", "Vieira", "Djorkaeff", "Deschamps", "Henry", "Zidane", "Dugarry")
         three_four_one_two2("Toldo", "Pessotto", "Maldini", "Iuliano", "Cannavaro", "Nesta", "Fiore", "Albertini", "Totti", "L Di Baggio", "Delvecchio")
-        flag1.src = "/football_img/logos/flags/france.gif"
-        flag2.src = "/football_img/logos/flags/italy.gif"
+        flag1.src = "/football_img/logos/france.png"
+        flag2.src = "/football_img/logos/italy.png"
         sidepic.src = "/football_img/logos/euro2000.png";
         manager1.textContent += "Roger Lemerre"
         manager2.textContent += "Dino Zoff"

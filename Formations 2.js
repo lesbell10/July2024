@@ -99,7 +99,7 @@ function Shorter() {
             div.style.marginLeft = '-10px'
         } else if (div.textContent === "Tchouameni" || div.textContent === "") {
             div.style.marginLeft = '-15px';
-        } else if (div.textContent === "" || div.textContent === "Camavinga") {
+        } else if (div.textContent === "Camavinga" || div.textContent === "R Rodriguez") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-40px';

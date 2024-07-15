@@ -78,20 +78,16 @@ option {
 
 .flag1 {
     position: absolute;
-    height: 10%;
-    width:6%;
-    left: 24%;
-    top: 5%;
-    border-radius: 50%;
+    height: 14%;
+    left: 23%;
+    top: 2%;
 }
 
 .flag2 {
     position: absolute;
-    height: 10%;
-    width:6%;
-    right: 24%;
-    top: 5%;
-    border-radius: 50%;
+    height: 14%;
+    right: 23%;
+    top: 2%;
 }
 
 .manager1 {
@@ -166,9 +162,9 @@ option {
 .label h3 {
     position: absolute;
     font-weight: bold;
-    left: 35.5%;
+    left: 34%;
     top: 3%;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 1px 1px 4px #000;
 }
 

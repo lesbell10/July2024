@@ -120,7 +120,7 @@ function updatePlayerInfo() {
         four_four_two2("Crepeau", "Johnston", "A Davies", "Cornelius", "Bombito", "Eustaquio", "Buchanan", "I Kone", "J David", "Larin", "Millar")
         flag1.src = "/football_img/logos/argentina.webp"
         flag2.src = "/football_img/logos/canada.webp"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += "Lionel Scaloni"
         manager2.textContent += "Jesse Marsch"
         substitutes1.innerHTML += "F Armani, G Rulli, L Quarta<br> Otamendi, Pezzella, Tagliafico, G Montiel, G Rodríguez, E Fernández<br> E Palacios, V Carboni, G Lo Celso, A Garnacho, N González, La Martínez"
@@ -130,46 +130,46 @@ function updatePlayerInfo() {
         score.textContent = "2 - 0"
         OT.innerHTML = ""
         goals1.innerHTML = "J Alvarez 49' ⚽<br>La Martinez 88'⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals2.innerHTML = ""
+        date.textContent = "20 / 06 / 2024"
     }
 
     if (selectedYear == "1") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        four_two_three_one("C Bravo", "M Isla", "G Suazo", "P Diaz", "I Lichnovsky", "Echeverria", "D Osorio", "Pulgar", "E Vargas", "A Sanchez", "Davila")
+        four_four_two2("E Martinez", "N Molina", "Tagliafico", "Li Martinez", "C Romero", "E Fernandez", "De Paul", "Mac Allister", "Messi", "Alvarez", "N Gonzalez")
+        flag1.src = "/football_img/logos/chile.png"
+        flag2.src = "/football_img/logos/argentina.webp"
+        sidepic.src = "/football_img/logos/copa america 2024.png";
+        manager1.textContent += "Ricardo Gareca"
+        manager2.textContent += "Lionel Scaloni"
+        substitutes1.innerHTML += "Arias, B Cortés, M Catalán<br> B Kuscevic, G Maripán, T Galdames, N Fernández, E Pavez<br> M Núñez, C Pérez, B Díaz, M Bolados, M Guerrero, C  Zavala"
+        substitutes2.innerHTML += "F Armani, G Rulli, L Quarta<br> Otamendi, Pezzella, Acuña, G Montiel, L Paredes, G Rodríguez<br> E Palacios, V Carboni, G Lo Celso, A Garnacho, Di María, La Martínez"
+        team1.innerHTML = "CHILE"
+        team2.innerHTML = "ARGENTINA"
+        score.textContent = "0 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = "La Martinez 88' ⚽"
+        date.textContent = "25 / 06 / 2024"
     }
 
     if (selectedYear == "2") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
+        four_two_three_one("Crepeau", "Johnston", "A Davies", "Cornelius", "Bombito", "Eustaquio", "Laryea", "Osorio", "Larin", "J David", "Shaffelburg")
+        four_two_three_one2("G Arias", "M Isla", "G Suazo", "Maripan", "I Lichnovsky", "Echeverria", "D Osorio", "M Nunez", "E Vargas", "A Sanchez", "Davila")
+        flag1.src = "/football_img/logos/canada.png"
+        flag2.src = "/football_img/logos/chile.png"
+        sidepic.src = "/football_img/logos/copa america 2024.png";
+        manager1.textContent += "Jesse Marsch"
+        manager2.textContent += "Sergio Santín"
+        substitutes1.innerHTML += "T McGill, D St. Clair, Waterman<br> K Hiebert, K Miller, L De Fougerolles, S Piette, A Ahmed, M Choinière<br> I Koné, Buchanan, L Millar, T Bair, T Oluwaseyi, J Russell-Rowe"
+        substitutes2.innerHTML += "B Cortés, M Catalán, P Díaz, B Kuscevic<br> T Galdames, N Fernández, E Pavez, Pulgar, C Pérez<br> B Díaz, C Zavala, M Bolados, M Guerrero"
+        team1.innerHTML = "CANADA"
+        team2.innerHTML = "CHILE"
+        score.textContent = "0 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = "G Suazo 27' 🟨🟥"
+        date.textContent = "29 / 06 / 2024"
     }
 
     if (selectedYear == "3") {
@@ -177,7 +177,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""
@@ -196,7 +196,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""
@@ -215,7 +215,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""
@@ -234,7 +234,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""
@@ -253,7 +253,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""
@@ -272,7 +272,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""
@@ -291,121 +291,7 @@ function updatePlayerInfo() {
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/"
         flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "10") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "11") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        substitutes1.innerHTML += ""
-        substitutes2.innerHTML += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/"
-        flag2.src = "/football_img/logos/"
-        sidepic.src = "/football_img/logos/";
+        sidepic.src = "/football_img/logos/copa america 2024.png";
         manager1.textContent += ""
         manager2.textContent += ""
         substitutes1.innerHTML += ""

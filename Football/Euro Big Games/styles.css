@@ -185,9 +185,8 @@ option {
 }
 
 .date {
-    position: absolute;
-    left: 46%;
-    top: 15%;
+    margin-top: -745px;
+    text-align: center;
     font-size: 24px;
     text-shadow: 1px 1px 2px #000;
 }
