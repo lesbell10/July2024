@@ -387,7 +387,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
     
-    if (selectedYear == "12") {
+    if (selectedYear == "16") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -404,7 +404,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "13") {
+    if (selectedYear == "17") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -421,7 +421,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "14") {
+    if (selectedYear == "18") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -438,7 +438,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "15") {
+    if (selectedYear == "19") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -453,7 +453,9 @@ function updatePlayerInfo() {
         goals1.innerHTML = "⚽"
         goals2.innerHTML = "⚽"
         date.textContent = ""
-    } if (selectedYear == "12") {
+    }
+    
+    if (selectedYear == "20") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -470,7 +472,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "13") {
+    if (selectedYear == "21") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -487,7 +489,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "14") {
+    if (selectedYear == "22") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -504,7 +506,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "15") {
+    if (selectedYear == "23") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -519,7 +521,9 @@ function updatePlayerInfo() {
         goals1.innerHTML = "⚽"
         goals2.innerHTML = "⚽"
         date.textContent = ""
-    } if (selectedYear == "12") {
+    }
+    
+    if (selectedYear == "24") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -536,7 +540,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "13") {
+    if (selectedYear == "25") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -553,7 +557,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "14") {
+    if (selectedYear == "26") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -570,7 +574,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "15") {
+    if (selectedYear == "27") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -585,7 +589,9 @@ function updatePlayerInfo() {
         goals1.innerHTML = "⚽"
         goals2.innerHTML = "⚽"
         date.textContent = ""
-    } if (selectedYear == "12") {
+    }
+    
+    if (selectedYear == "28") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -602,7 +608,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "13") {
+    if (selectedYear == "29") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -619,7 +625,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "14") {
+    if (selectedYear == "30") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -636,7 +642,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "15") {
+    if (selectedYear == "31") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -653,7 +659,75 @@ function updatePlayerInfo() {
         date.textContent = ""
     } 
     
-    if (selectedYear == "16") {
+    if (selectedYear == "32") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "SLOVAKIA"
+        team2.innerHTML = "ROMANIA"
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+
+    if (selectedYear == "33") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "UKRAINE"
+        team2.innerHTML = "BELGIUM"
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+
+    if (selectedYear == "34") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "CZECHIA"
+        team2.innerHTML = "TURKEY"
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+
+    if (selectedYear == "35") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = "GEORGIA"
+        team2.innerHTML = "PORTUGAL"
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+    
+    if (selectedYear == "36") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -670,7 +744,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "17") {
+    if (selectedYear == "37") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -687,7 +761,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "18") {
+    if (selectedYear == "38") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -704,7 +778,73 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "19") {
+    if (selectedYear == "39") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = ""
+        team2.innerHTML = ""
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    } if (selectedYear == "40") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = ""
+        team2.innerHTML = ""
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+
+    if (selectedYear == "41") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = ""
+        team2.innerHTML = ""
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+
+    if (selectedYear == "42") {
+        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
+        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
+        flag1.src = "/football_img/logos/.png"
+        flag2.src = "/football_img/logos/.png"
+        sidepic.src = "/football_img/logos/euro 2024.png";
+        manager1.textContent += ""
+        manager2.textContent += ""
+        team1.innerHTML = ""
+        team2.innerHTML = ""
+        score.textContent = ""
+        OT.innerHTML = ""
+        goals1.innerHTML = "⚽"
+        goals2.innerHTML = "⚽"
+        date.textContent = ""
+    }
+
+    if (selectedYear == "43") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -721,7 +861,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
     
-    if (selectedYear == "20") {
+    if (selectedYear == "44") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -738,7 +878,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "21") {
+    if (selectedYear == "45") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -755,7 +895,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "22") {
+    if (selectedYear == "46") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -772,141 +912,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "23") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "24") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "25") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "26") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "27") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-    
-    if (selectedYear == "28") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "29") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "30") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "31") {
+    if (selectedYear == "47") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -923,7 +929,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     } 
     
-    if (selectedYear == "32") {
+    if (selectedYear == "48") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -940,7 +946,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "33") {
+    if (selectedYear == "49") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -957,7 +963,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "34") {
+    if (selectedYear == "50") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
@@ -974,537 +980,7 @@ function updatePlayerInfo() {
         date.textContent = ""
     }
 
-    if (selectedYear == "35") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-    
-    if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "12") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "13") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "14") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
-        sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = ""
-        team2.innerHTML = ""
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    }
-
-    if (selectedYear == "15") {
+    if (selectedYear == "51") {
         four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
         four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
         flag1.src = "/football_img/logos/.png"
