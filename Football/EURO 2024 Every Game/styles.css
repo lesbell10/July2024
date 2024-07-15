@@ -188,6 +188,24 @@ option {
     text-shadow: 1px 1px 2px #000;
 }
 
+.home {
+    position:absolute;
+    font-size: 24px; 
+    left: 34%;
+    top: 13.5%;       
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.away {
+    position:absolute;
+    font-size: 24px; 
+    right: 34%;
+    top: 13.5%;   
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
 .date {
     text-align: center;
     font-size: 24px;
