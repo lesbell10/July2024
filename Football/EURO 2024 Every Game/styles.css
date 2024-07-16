@@ -216,34 +216,34 @@ option {
     transform: translateX(-50%);
 }
 
-.STL { top: -2%; left: 34%; }
-.STL2 {top: -24%; left:34%}
-.STC { top: -2%; left: 45%; }
-.STC2 { top: -24%; left: 45%; }
-.STR { top: -2%; left: 56%; }
-.STR2 { top: -24%; left: 56%; }
+.STL { top: -3%; left: 34%; }
+.STL2 {top: -25%; left:34%}
+.STC { top: -3%; left: 45%; }
+.STC2 { top: -25%; left: 45%; }
+.STR { top: -3%; left: 56%; }
+.STR2 { top: -25%; left: 56%; }
 .LW { top: 25%; left: 5%; }
 .LW2 { top: 3%; left: 5%; }
 .LF { top: 27%; left: 15%; }
 .LF2 { top: 5%; left: 15%; }
-.AMLC { top: 27%; left: 35%; }
-.AMLC2 {top: 5%; left: 35% } 
-.AMC { top: 27%; left: 45%; }
-.AMC2 { top: 5%; left: 45%; }
-.AMRC { top: 27%; left: 55%; }
-.AMRC2 { top: 5%; left: 55%; }
+.AMLC { top: 26%; left: 35%; }
+.AMLC2 {top: 4%; left: 35% } 
+.AMC { top: 26%; left: 45%; }
+.AMC2 { top: 4%; left: 45%; }
+.AMRC { top: 26%; left: 55%; }
+.AMRC2 { top: 4%; left: 55%; }
 .RF { top: 27%; left: 74%; }
 .RF2 { top: 5%; left: 74%; }
 .RW { top: 25%; left: 84%; }
 .RW2 { top: 3%; left: 84%; }
 .WL { top: 54.5%; left: 5%; }
 .WL2 { top:32.5%; left: 5%; }
-.LCM { top: 55.5%; left: 29%; }
-.LCM2 { top: 33.5%; left: 29%; }
-.CM { top: 58.5%; left: 45%; }
-.CM2 { top: 36.5%; left: 45%; }
-.RCM { top: 55.5%; left: 61%; }
-.RCM2 { top: 33.5%; left: 61%; }
+.LCM { top: 54.5%; left: 29%; }
+.LCM2 { top: 32.5%; left: 29%; }
+.CM { top: 59%; left: 45%; }
+.CM2 { top: 37%; left: 45%; }
+.RCM { top: 54.5%; left: 61%; }
+.RCM2 { top: 32.5%; left: 61%; }
 .WR { top: 54.5%; left: 85%; }
 .WR2 { top: 32.5%; left: 85%; }
 .LWB { top: 75.5%; left: 0; }
