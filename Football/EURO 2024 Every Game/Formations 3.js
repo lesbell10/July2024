@@ -95,11 +95,11 @@ function Shorter() {
 
     divs.forEach(div => {
 
-        if (div.textContent === "" || div.textContent === "" || div.textContent === "" || div.textContent === "" || div.textContent === "") {
+        if (div.textContent === "Zubimendi" || div.textContent === "" || div.textContent === "" || div.textContent === "" || div.textContent === "") {
             div.style.marginLeft = '-10px'
-        } else if (div.textContent === "" || div.textContent === "") {
+        } else if (div.textContent === "" || div.textContent === "Gallagher" || div.textContent === "Tchouameni") {
             div.style.marginLeft = '-15px';
-        } else if (div.textContent === "Christensen" || div.textContent === "R Rodriguez") {
+        } else if (div.textContent === "Christensen" || div.textContent === "R Rodriguez" || div.textContent === "Dawidowicz" || div.textContent === "Matviyenko" || div.textContent === "Camavinga" || div.textContent === "S McKenna") {
             div.style.marginLeft = '-25px';
         } else if (div.textContent === "J Andersen" || div.textContent === "Milinkovic-Savic" || div.textContent === "Kochorashvili" || div.textContent === "") {
             div.style.marginLeft = '-40px';

@@ -44,21 +44,25 @@ option {
 .result {
     position: absolute;
     text-align: center;
-    left: 38%;
+    left: 50%;
     top: 25%;
+    transform: translateX(-50%);
     font-size: 43px;
     text-shadow: 1px 1px 4px #000;
     font-weight: bold;
 }
 
+
 .OT {
     position: absolute;
-    left: 47%;
+    left: 50%;
     top: 33%;   
     font-size: 60px;
     font-weight: bold;
     text-shadow: 1px 1px 4px #000;
+    transform: translateX(-50%);
 }
+
 
 .team1 {
     top: 70px;
@@ -113,10 +117,11 @@ option {
 .sidepic {
     position: absolute;
     top: 43%;
-    left:40.5%;
+    left: 50%;
     object-fit: contain;
     width: 400px;
     height: 400px;
+    transform: translateX(-50%);
 }
 
 .formations {
@@ -144,12 +149,16 @@ option {
     height: 150px;
 }
 
+.label {
+    display: flex;
+    justify-content: center;
+}
+
 .label h3 {
     position: absolute;
     font-weight: bold;
-    left: 35.5%;
     top: 3%;
-    font-size: 50px;
+    font-size: 46px;
     text-shadow: 1px 1px 4px #000;
 }
 

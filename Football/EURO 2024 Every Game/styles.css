@@ -45,7 +45,7 @@ option {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 30%;
+    top: 26%;
     font-size: 90px;
     text-shadow: 1px 1px 6px #000;
 }
@@ -54,7 +54,7 @@ option {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 40%;   
+    top: 36%;   
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px 3px #000;
@@ -224,16 +224,16 @@ option {
 .STR2 { top: -25%; left: 56%; }
 .LW { top: 25%; left: 5%; }
 .LW2 { top: 3%; left: 5%; }
-.LF { top: 27%; left: 15%; }
-.LF2 { top: 5%; left: 15%; }
+.LF { top: 25.5%; left: 15%; }
+.LF2 { top: 4%; left: 15%; }
 .AMLC { top: 26%; left: 35%; }
 .AMLC2 {top: 4%; left: 35% } 
 .AMC { top: 26%; left: 45%; }
 .AMC2 { top: 4%; left: 45%; }
 .AMRC { top: 26%; left: 55%; }
 .AMRC2 { top: 4%; left: 55%; }
-.RF { top: 27%; left: 74%; }
-.RF2 { top: 5%; left: 74%; }
+.RF { top: 25.5%; left: 74%; }
+.RF2 { top: 4%; left: 74%; }
 .RW { top: 25%; left: 84%; }
 .RW2 { top: 3%; left: 84%; }
 .WL { top: 54.5%; left: 5%; }

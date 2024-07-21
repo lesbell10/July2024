@@ -52,7 +52,7 @@ function updatePlayerInfo() {
     sidepic.style.width = "400px"
     sidepic.style.height = "400px"
     sidepic.style.top = "43%"
-    sidepic.style.left = "40.5%"
+    sidepic.style.left = "50%"
 
     if (selectedYear == "0") {
         FL.textContent = "M Tkachuk";

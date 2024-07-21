@@ -81,21 +81,21 @@ const date = document.querySelector(".date")
 yearSelector.addEventListener("change", () => {
     updatePlayerInfo();
 
-    LCM.style.top = "55.5%"
-    LCM2.style.top = "33.5%"
-    RCM.style.top = "55.5%"
-    RCM2.style.top = "33.5%"
-    CM.style.top = "58.5%"
-    CM2.style.top = "36.5%"
+    LCM.style.top = "54.5%"
+    LCM2.style.top = "32.5%"
+    RCM.style.top = "54.5%"
+    RCM2.style.top = "32.5%"
+    CM.style.top = "59%"
+    CM2.style.top = "37%"
     DM.style.top = "71%"
     DM2.style.top = "49%"
 
-    twoLCM.style.top = "55.5%"
-    twoLCM2.style.top = "33.5%"
-    twoRCM.style.top = "55.5%"
-    twoRCM2.style.top = "33.5%"
-    twoCM.style.top = "58.5%"
-    twoCM2.style.top = "36.5%"
+    twoLCM.style.top = "54.5%"
+    twoLCM2.style.top = "32.5%"
+    twoRCM.style.top = "54.5%"
+    twoRCM2.style.top = "32.5%"
+    twoCM.style.top = "59%"
+    twoCM2.style.top = "37%"
     twoDM.style.top = "71%"
     twoDM2.style.top = "49%"
 });
@@ -371,614 +371,614 @@ function updatePlayerInfo() {
     }
 
     if (selectedYear == "15") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "Rodri", "Yamal", "Pedri", "Morata", "F Ruiz", "N Williams")
+        four_three_three2("Donnarumma", "Di Lorenzo", "Dimarco", "Calafiori", "Bastoni", "Jorginho", "Chiesa", "Frattesi", "Scamacca", "Barella", "Pellegrini")
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/italy.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SPAIN"
-        team2.innerHTML = "ITALY"
-        score.textContent = ""
+        manager1.textContent += "Luis de la Fuente"
+        manager2.textContent += "Luciano Spalletti"
+        team1.textContent = "SPAIN"
+        team2.textContent = "ITALY"
+        score.textContent = "1 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Calafiori (OG) 55' ⚽"
+        goals2.innerHTML = ""
+        date.textContent = "20 / 06 / 2024"
     }
     
     if (selectedYear == "16") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_four_two("Oblak", "Karnicnik", "Janza", "Bijol", "Drkusic", "Elsnik", "Stojanovic", "Cerin", "Sporar", "Sesko", "Mlakar")
+        three_four_two_one2("Rajkovic", "Zivkovic", "Mladenovic", "Pavlovic", "Milenkovic", "Veljkovic", "Tadic", "Lukic", "Mitrovic", "Ilic", "Vlahovic")
+        flag1.src = "/football_img/logos/slovenia.png"
+        flag2.src = "/football_img/logos/serbia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SLOVENIA"
-        team2.innerHTML = "SERBIA"
-        score.textContent = ""
+        manager1.textContent += "Matjaz Kek"
+        manager2.textContent += "Dragan Stojkovic"
+        team1.textContent = "SLOVENIA"
+        team2.textContent = "SERBIA"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Karnicnik 69' ⚽"
+        goals2.innerHTML = "L Jovic 90+5' ⚽" 
+        date.textContent = "20 / 06 / 2024"
     }
 
     if (selectedYear == "17") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_one_two("K Schmeichel", "Maehle", "Kristiansen", "J Andersen", "Christensen", "Vestergaard", "Eriksen", "Hojbjerg", "Hojlund", "Hjulmand", "Wind")
+        four_two_three_one2("Pickford", "Walker", "Trippier", "Guehi", "Stones", "D Rice", "Saka", "Alexander-Arnold", "Kane", "Bellingham", "Foden")
+        flag1.src = "/football_img/logos/denmark.png"
+        flag2.src = "/football_img/logos/england.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "DENMARK"
-        team2.innerHTML = "ENGLAND"
-        score.textContent = ""
+        manager1.textContent += "Kasper Hjulmand"
+        manager2.textContent += "Gareth Southgate"
+        team1.textContent = "DENMARK"
+        team2.textContent = "ENGLAND"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Hjulmand 34' ⚽"
+        goals2.innerHTML = "Kane 18' ⚽"
+        date.textContent = "20 / 06 / 2024"
     }
 
     if (selectedYear == "18") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_five_two("Szczesny", "Frankowski", "Zalewski", "Kiwior", "Dawidowicz", "J Bednarek", "Slisz", "Zielinski", "Buksa", "Piotrowski", "Piatek")
+        four_two_three_one2("Pentz", "Posch", "Mwene", "Lienhart", "Trauner", "Grillitsch", "Baumgartner", "Seiwald", "Arnautovic", "Laimer", "Sabitzer")
+        flag1.src = "/football_img/logos/poland.png"
+        flag2.src = "/football_img/logos/austria.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "POLAND"
-        team2.innerHTML = "AUSTRIA"
-        score.textContent = ""
+        manager1.textContent += "Michal Probierz"
+        manager2.textContent += "Ralf Rangnick"
+        team1.textContent = "POLAND"
+        team2.textContent = "AUSTRIA"
+        score.textContent = "1 - 3"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Piatek 30' ⚽"
+        goals2.innerHTML = "Trauner 9' ⚽<br>Baumgartner 66' ⚽<br>Arnautovic 78' (P) ⚽"
+        date.textContent = "21 / 06 / 2024"
     }
 
     if (selectedYear == "19") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Verbruggen", "Dumfries", "N Ake", "van Dijk", "de Vrij", "Reijnders", "Frimpong", "Schouten", "Depay", "X Simons", "Gakpo")
+        four_two_three_one2("Maignan", "Kounde", "T Hernandez", "Saliba", "Upamecano", "Tchouameni", "O Dembele", "Kante", "M Thuram", "Griezmann", "Rabiot")
+        flag1.src = "/football_img/logos/netherlands.png"
+        flag2.src = "/football_img/logos/france.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "NETHERLANDS"
-        team2.innerHTML = "FRANCE"
-        score.textContent = ""
+        manager1.textContent += "Ronald Koeman"
+        manager2.textContent += "Didier Deschamps"
+        team1.textContent = "NETHERLANDS"
+        team2.textContent = "FRANCE"
+        score.textContent = "0 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = ""
+        date.textContent = "21 / 06 / 2024"
     }
     
     if (selectedYear == "20") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Dubravka", "Pekarik", "Hancko", "Skriniar", "Vavro", "Lobotka", "Schranz", "Kucka", "Bozenik", "Duda", "Haraslin")
+        four_two_three_one2("Trubin", "Tymchyk", "Zinchenko", "Matviyenko", "Zabarnyi", "Brazhko", "Yarmolenko", "Shaparenko", "Dovbyk", "Sudakov", "Mudryk")
+        flag1.src = "/football_img/logos/slovakia.png"
+        flag2.src = "/football_img/logos/ukraine.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SLOVAKIA"
-        team2.innerHTML = "UKRAINE"
-        score.textContent = ""
+        manager1.textContent += "Francesco Calzona"
+        manager2.textContent += "Serhiy Rebrov"
+        team1.textContent = "SLOVAKIA"
+        team2.textContent = "UKRAINE"
+        score.textContent = "1 - 2"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Schranz 17' ⚽"
+        goals2.innerHTML = "Shaparenko 54' ⚽<br>Yaremchuk 80' ⚽"
+        date.textContent = "21 / 06 / 2024"
     }
 
     if (selectedYear == "21") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Casteels", "Castagne", "Theate", "Vertonghen", "Faes", "A Onana", "Lukebakio", "Tielemans", "Lukaku", "De Bruyne", "Doku")
+        four_five_one2("Nita", "Ratiu", "Bancu", "Burca", "Dragusin", "M Marin", "D Man", "R Marin", "Dragus", "Stanciu", "Mihaila")
+        flag1.src = "/football_img/logos/belgium.png"
+        flag2.src = "/football_img/logos/romania.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "BELGIUM"
-        team2.innerHTML = "ROMANIA"
-        score.textContent = ""
+        manager1.textContent += "Domenico Tedesco"
+        manager2.textContent += "Edward Iordanescu"
+        team1.textContent = "BELGIUM"
+        team2.textContent = "ROMANIA"
+        score.textContent = "2 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Tielemans 2' ⚽<br>De Bruyne 80' ⚽"
+        goals2.innerHTML = ""
+        date.textContent = "22 / 06 / 2024"
     }
 
     if (selectedYear == "22") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_three("Mamardashvili", "Kakabadze", "Tsitaishvili", "Dvali", "Kashia", "Kvirkvelia", "Davitashvili", "Mekvabishvili", "Mikautadze", "Kochorashvili", "Kvaratskhelia")
+        three_four_two_one2("Stanek", "Coufal", "Jurasek", "Krejci", "Hranac", "Holes", "Cerny", "Provod", "Schick", "Soucek", "Hlozek")
+        flag1.src = "/football_img/logos/georgia.png"
+        flag2.src = "/football_img/logos/czechia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "GEORGIA"
-        team2.innerHTML = "CZECHIA"
-        score.textContent = ""
+        manager1.textContent += "Willy Sagnol"
+        manager2.textContent += "Ivan Hasek"
+        team1.textContent = "GEORGIA"
+        team2.textContent = "CZECHIA"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Mikautadze 45+4' (P) ⚽"
+        goals2.innerHTML = "Schick 59' ⚽"
+        date.textContent = "22 / 06 / 2024"
     }
 
     if (selectedYear == "23") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Bayindir", "Celik", "Kadioglu", "Bardakci", "Akaydin", "Ayhan", "Akgun", "Calhanoglu", "B Yilmaz", "Kokcu", "Akturkoglu")
+        four_two_three_one2("D Costa", "Cancelo", "N Mendes", "K Pepe", "R Dias", "Palhinha", "B Silva", "Vitinha", "C Ronaldo", "B Fernandes", "R Leao")
+        flag1.src = "/football_img/logos/turkey.png"
+        flag2.src = "/football_img/logos/portugal.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "TURKIYE"
-        team2.innerHTML = "PORTUGAL"
-        score.textContent = ""
+        manager1.textContent += "Vincenzo Montella"
+        manager2.textContent += "Roberto Martinez"
+        team1.textContent = "TURKIYE"
+        team2.textContent = "PORTUGAL"
+        score.textContent = "0 - 3"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = "B Silva 21' ⚽<br>Akaydin 28' (OG) ⚽<br>B Fernandes 56' ⚽"
+        date.textContent = "22 / 06 / 2024"
     }
     
     if (selectedYear == "24") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_two_one("Sommer", "Widmer", "Aebischer", "R Rodriguez", "Akanji", "Schar", "Rieder", "Xhaka", "Embolo", "Freuler", "Ndoye")
+        four_two_three_one2("Neuer", "Kimmich", "Mittelstadt", "J Tah", "Rudiger", "Kroos", "Musiala", "Andrich", "Havertz", "Gundogan", "Wirtz")
+        flag1.src = "/football_img/logos/switzerland.png"
+        flag2.src = "/football_img/logos/germany.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SWITZERLAND"
-        team2.innerHTML = "GERMANY"
-        score.textContent = ""
+        manager1.textContent += "Murat Yakin"
+        manager2.textContent += "Julian Nagelsmann"
+        team1.textContent = "SWITZERLAND"
+        team2.textContent = "GERMANY"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Ndoye 28' ⚽"
+        goals2.innerHTML = "Fullkrug 90+2' ⚽"
+        date.textContent = "23 / 06 / 2024"
     }
 
     if (selectedYear == "25") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_two_one("Gunn", "Ralston", "Robertson", "S McKenna", "Hanley", "Hendry", "McGinn", "Gilmour", "C Adams", "C McGregor", "McTominay")
+        three_four_two_one2("Gulacsi", "Bolla", "Kerkez", "Dardai", "Orban", "Botka", "Szoboszlai", "Schafer", "Varga", "Styles", "Sallai")
+        flag1.src = "/football_img/logos/scotland.png"
+        flag2.src = "/football_img/logos/hungary.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SCOTLAND"
-        team2.innerHTML = "HUNGARY"
-        score.textContent = ""
+        manager1.textContent += "Steve Clarke"
+        manager2.textContent += "Marco Rossi"
+        team1.textContent = "SCOTLAND"
+        team2.textContent = "HUNGARY"
+        score.textContent = "0 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = "Csoboth 90+10' ⚽"
+        date.textContent = "23 / 06 / 2024"
     }
 
     if (selectedYear == "26") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Livakovic", "Stanisic", "Gvardiol", "Pongracic", "Sutalo", "Brozovic", "Sucic", "Modric", "Kramaric", "Kovacic", "Pasalic")
+        three_five_two2("Donnarumma", "Di Lorenzo", "Pellegrini", "Calafiori", "Bastoni", "Darmian", "Jorginho", "Barella", "Retegui", "Dimarco", "Raspadori")
+        flag1.src = "/football_img/logos/croatia.png"
+        flag2.src = "/football_img/logos/italy.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "CROATIA"
-        team2.innerHTML = "ITALY"
-        score.textContent = ""
+        manager1.textContent += "Zlatko Dalic"
+        manager2.textContent += "Luciano Spalletti"
+        team1.textContent = "CROATIA"
+        team2.textContent = "ITALY"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Modric 55' ⚽"
+        goals2.innerHTML = "Zaccagni 90+8' ⚽"
+        date.textContent = "24 / 06 / 2024"
     }
 
     if (selectedYear == "27") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Strakosha", "Balliu", "Mitaj", "Djimsiti", "Ajeti", "Ramadani", "Asani", "Laci", "Manaj", "Asllani", "Bajrami")
+        four_three_three2("D Raya", "J Navas", "Grimaldo", "Laporte", "Vivian", "Zubimendi", "F Torres", "Olmo", "Joselu", "Merino", "Oyarzabal")
+        flag1.src = "/football_img/logos/albania.png"
+        flag2.src = "/football_img/logos/spain.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "ALBANIA"
-        team2.innerHTML = "SPAIN"
-        score.textContent = ""
+        manager1.textContent += "Sylvinho"
+        manager2.textContent += "Luis de la Fuente"
+        team1.textContent = "ALBANIA"
+        team2.textContent = "SPAIN"
+        score.textContent = "0 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = "F Torres 13' ⚽"
+        date.textContent = "24 / 06 / 2024"
     }
     
     if (selectedYear == "28") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Pickford", "Walker", "Trippier", "Guehi", "Stones", "D Rice", "Saka", "Bellingham", "Kane", "Gallagher", "Foden")
+        four_four_two2("Oblak", "Karnicnik", "Janza", "Bijol", "Drkusic", "Elsnik", "Stojanovic", "Cerin", "Sporar", "Sesko", "Mlakar")
+        flag1.src = "/football_img/logos/england.png"
+        flag2.src = "/football_img/logos/slovenia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "ENGLAND"
-        team2.innerHTML = "SLOVENIA"
-        score.textContent = ""
+        manager1.textContent += "Gareth Southgate"
+        manager2.textContent += "Matjaz Kek"
+        team1.textContent = "ENGLAND"
+        team2.textContent = "SLOVENIA"
+        score.textContent = "0 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = ""
+        date.textContent = "25 / 06 / 2024"
     }
 
     if (selectedYear == "29") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_one_two("K Schmeichel", "A Bah", "Maehle", "J Andersen", "Christensen", "Vestergaard", "Eriksen", "Hojbjerg", "Hojlund", "Hjulmand", "Wind")
+        three_four_two_one2("Rajkovic", "Mijailovic", "Zivkovic", "Pavlovic", "Milenkovic", "Veljkovic", "Samardzic", "N Gudelj", "Mitrovic", "Ilic", "Lukic")
+        flag1.src = "/football_img/logos/denmark.png"
+        flag2.src = "/football_img/logos/serbia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "DENMARK"
-        team2.innerHTML = "SERBIA"
-        score.textContent = ""
+        manager1.textContent += "Kasper Hjulmand"
+        manager2.textContent += "Dragan Stojkovic"
+        team1.textContent = "DENMARK"
+        team2.textContent = "SERBIA"
+        score.textContent = "0 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = ""
+        date.textContent = "25 / 06 / 2024"
     }
 
     if (selectedYear == "30") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Verbruggen", "Geertruida", "N Ake", "van Dijk", "de Vrij", "Schouten", "Malen", "Reijnders", "Depay", "Veerman", "Gakpo")
+        four_two_three_one2("Pentz", "Posch", "Prass", "Wober", "Lienhart", "Grillitsch", "Schmid", "Seiwald", "Arnautovic", "Sabitzer", "Wimmer")
+        flag1.src = "/football_img/logos/netherlands.png"
+        flag2.src = "/football_img/logos/austria.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "NETHERLANDS"
-        team2.innerHTML = "AUSTRIA"
-        score.textContent = ""
+        manager1.textContent += "Ronald Koeman"
+        manager2.textContent += "Ralf Rangnick"
+        team1.textContent = "NETHERLANDS"
+        team2.textContent = "AUSTRIA"
+        score.textContent = "2 - 3"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Gakpo 47' ⚽<br>Depay 75' ⚽"
+        goals2.innerHTML = "Malen 6' (OG) ⚽<br>Schmid 59' ⚽<br>Sabitzer 80' ⚽"
+        date.textContent = "25 / 06 / 2024"
     }
 
     if (selectedYear == "31") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Maignan", "Kounde", "T Hernandez", "Saliba", "Upamecano", "Tchouameni", "O Dembele", "Kante", "Mbappe", "Rabiot", "Barcola")
+        five_three_two2("Skorupski", "Frankowski", "Zalewski", "Kiwior", "Dawidowicz", "J Bednarek", "Moder", "Szymanski", "Lewandowski", "Zielinski", "Urbanski")
+        flag1.src = "/football_img/logos/france.png"
+        flag2.src = "/football_img/logos/poland.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "FRANCE"
-        team2.innerHTML = "POLAND"
-        score.textContent = ""
+        manager1.textContent += "Didier Deschamps"
+        manager2.textContent += "Michal Probierz"
+        team1.textContent = "FRANCE"
+        team2.textContent = "POLAND"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Mbappe 56' (P) ⚽"
+        goals2.innerHTML = "Lewandowski 79' (P) ⚽"
+        date.textContent = "25 / 06 / 2024"
     } 
     
     if (selectedYear == "32") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("Dubravka", "Pekarik", "Hancko", "Skriniar", "Vavro", "Lobotka", "Schranz", "Kucka", "Strelec", "Duda", "Haraslin")
+        four_five_one2("Nita", "Ratiu", "Bancu", "Burca", "Dragusin", "M Marin", "I Hagi", "R Marin", "Dragus", "Stanciu", "F Coman")
+        flag1.src = "/football_img/logos/slovakia.png"
+        flag2.src = "/football_img/logos/romania.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SLOVAKIA"
-        team2.innerHTML = "ROMANIA"
-        score.textContent = ""
+        manager1.textContent += "Francesco Calzona"
+        manager2.textContent += "Edward Iordanescu"
+        team1.textContent = "SLOVAKIA"
+        team2.textContent = "ROMANIA"
+        score.textContent = "1 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Duda 24' ⚽"
+        goals2.innerHTML = "Marin 37' (P) ⚽"
+        date.textContent = "26 / 06 / 2024"
     }
 
     if (selectedYear == "33") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        five_three_two("Trubin", "Tymchyk", "Mykolenko", "Matviyenko", "Svatok", "Zabarnyi", "Brazhko", "Shaparenko", "Yaremchuk", "Sudakov", "Dovbyk")
+        four_two_three_one2("Casteels", "Castagne", "Theate", "Vertonghen", "Faes", "A Onana", "Trossard", "Tielemans", "Lukaku", "De Bruyne", "Doku")
+        flag1.src = "/football_img/logos/ukraine.png"
+        flag2.src = "/football_img/logos/belgium.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "UKRAINE"
-        team2.innerHTML = "BELGIUM"
-        score.textContent = ""
+        manager1.textContent += "Serhiy Rebrov"
+        manager2.textContent += "Domenico Tedesco"
+        team1.textContent = "UKRAINE"
+        team2.textContent = "BELGIUM"
+        score.textContent = "0 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = ""
+        date.textContent = "26 / 06 / 2024"
     }
 
     if (selectedYear == "34") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_two_one("Stanek", "Coufal", "Jurasek", "Krejci", "Hranac", "Holes", "Barak", "Provod", "Chytil", "Soucek", "Hlozek")
+        four_two_three_one2("Gunok", "Muldur", "Kadioglu", "Demiral", "Akaydin", "Yuksek", "Guler", "Ozcan", "B Yilmaz", "Calhanoglu", "Yildiz")
+        flag1.src = "/football_img/logos/czechia.png"
+        flag2.src = "/football_img/logos/turkey.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "CZECHIA"
-        team2.innerHTML = "TURKIYE"
-        score.textContent = ""
+        manager1.textContent += "Ivan Hasek"
+        manager2.textContent += "Vincenzo Montella"
+        team1.textContent = "CZECHIA"
+        team2.textContent = "TURKIYE"
+        score.textContent = "1 - 2"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Soucek 66' ⚽<br>Barak 20'   🟨🟥<br>Chory 90+8'  🟥"
+        goals2.innerHTML = "Calhanoglu 51' ⚽<br>Tosun 90+4' ⚽"
+        date.textContent = "26 / 06 / 2024"
     }
 
     if (selectedYear == "35") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        five_three_two("Mamardashvili", "Kakabadze", "Lochoshvili", "Dvali", "Kashia", "Gvelesiani", "Kiteishvili", "Chakvetadze", "Kvaratskhelia", "Kochorashvili", "Mikautadze")
+        three_four_two_one2("D Costa", "Dalot", "P Neto", "Inacio", "D Pereira", "A Silva", "F Conceicao", "J Neves", "C Ronaldo", "Palhinha", "J Felix")
+        flag1.src = "/football_img/logos/georgia.png"
+        flag2.src = "/football_img/logos/portugal.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "GEORGIA"
-        team2.innerHTML = "PORTUGAL"
-        score.textContent = ""
+        manager1.textContent += "Willy Sagnol"
+        manager2.textContent += "Roberto Martinez"
+        team1.textContent = "GEORGIA"
+        team2.textContent = "PORTUGAL"
+        score.textContent = "2 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Kvaratskhelia 2' ⚽<br>Mikautadze 57' (P) ⚽"
+        goals2.innerHTML = ""
+        date.textContent = "26 / 06 /2024"
     }
     
     if (selectedYear == "36") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_two_one("Sommer", "Ndoye", "Aebischer", "R Rodriguez", "Akanji", "Schar", "Rieder", "Xhaka", "Embolo", "Freuler", "R Vargas")
+        four_three_three2("Donnarumma", "Di Lorenzo", "Darmian", "Bastoni", "G Mancini", "Fagioli", "Chiesa", "Cristante", "Scamacca", "Barella", "El Shaarawy")
+        flag1.src = "/football_img/logos/switzerland.png"
+        flag2.src = "/football_img/logos/italy.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SWITZERLAND"
-        team2.innerHTML = "ITALY"
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        manager1.textContent += "Murat Yakin"
+        manager2.textContent += "Luciano Spalletti"
+        team1.textContent = "SWITZERLAND"
+        team2.textContent = "ITALY"
+        score.textContent = "2 - 0"
+        OT.innerHTML = "" 
+        goals1.innerHTML = "Freuler 37' ⚽<br>R Vargas 46' ⚽"
+        goals2.innerHTML = ""
+        date.textContent = "29 / 06 / 2024"
     }
 
     if (selectedYear == "37") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Neuer", "Kimmich", "Raum", "Schlotterbeck", "Rudiger", "Kroos", "Sane", "Andrich", "Havertz", "Gundogan", "Musiala")
+        three_four_two_one2("K Schmeichel", "A Bah", "Maehle", "J Andersen", "Christensen", "Vestergaard", "Olsen", "Delaney", "Hojlund", "Hojbjerg", "Eriksen")
+        flag1.src = "/football_img/logos/germany.png"
+        flag2.src = "/football_img/logos/denmark.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "GERMANY"
-        team2.innerHTML = "DENMARK"
-        score.textContent = ""
+        manager1.textContent += "Julian Nagelsmann"
+        manager2.textContent += "Kasper Hjulmand"
+        team1.textContent = "GERMANY"
+        team2.textContent = "DENMARK"
+        score.textContent = "2 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Havertz 53' (P) ⚽<br>Musiala 68' ⚽"
+        goals2.innerHTML = ""
+        date.textContent = "29 / 06 / 2024"
     }
 
     if (selectedYear == "38") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Pickford", "Walker", "Trippier", "Guehi", "Stones", "D Rice", "Saka", "Mainoo", "Kane", "Bellingham", "Foden")
+        four_three_three2("Dubravka", "Pekarik", "Hancko", "Skriniar", "Vavro", "Lobotka", "Schranz", "Kucka", "Strelec", "Duda", "Haraslin")
+        flag1.src = "/football_img/logos/england.png"
+        flag2.src = "/football_img/logos/slovakia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "ENGLAND"
-        team2.innerHTML = "SLOVAKIA"
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        manager1.textContent += "Gareth Southgate"
+        manager2.textContent += "Francesco Calzona"
+        team1.textContent = "ENGLAND"
+        team2.textContent = "SLOVAKIA"
+        score.textContent = "2 - 1"
+        OT.innerHTML = "after extra time"
+        goals1.innerHTML = "Bellingham 90+5' ⚽<br>Kane 91' ⚽"
+        goals2.innerHTML = "Schranz 25' ⚽"
+        date.textContent = "30 / 06 / 2024"
     }
 
     if (selectedYear == "39") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "Rodri", "Yamal", "Pedri", "Morata", "F Ruiz", "N Williams")
+        five_three_two2("Mamardashvili", "Kakabadze", "Lochoshvili", "Dvali", "Kashia", "Gvelesiani", "Kiteishvili", "Chakvetadze", "Kvaratskhelia", "Kochorashvili", "Mikautadze")
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/georgia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "SPAIN"
-        team2.innerHTML = "GEORGIA"
-        score.textContent = ""
+        manager1.textContent += "Luis de la Fuente"
+        manager2.textContent += "Willy Sagnol"
+        team1.textContent = "SPAIN"
+        team2.textContent = "GEORGIA"
+        score.textContent = "4 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
-    } if (selectedYear == "40") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        goals1.innerHTML = "Rodri 39' ⚽<br>F Ruiz 51' ⚽<br>N Williams 75' ⚽<br>D Olmo 83' ⚽"
+        goals2.innerHTML = "Le Normand 18' (OG) ⚽"
+        date.textContent = "30 / 06 / 2024"
+    }
+    
+    if (selectedYear == "40") {
+        four_three_three("Maignan", "Kounde", "T Hernandez", "Saliba", "Upamecano", "Tchouameni", "Griezmann", "Kante", "M Thuram", "Rabiot", "Mbappe")
+        four_four_two2("Casteels", "Castagne", "Theate", "Vertonghen", "Faes", "De Bruyne", "Carrasco", "Onana", "Lukaku", "Openda", "Doku")
+        flag1.src = "/football_img/logos/france.png"
+        flag2.src = "/football_img/logos/belgium.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "FRANCE"
-        team2.innerHTML = "BELGIUM"
-        score.textContent = ""
+        manager1.textContent += "Didier Deschamps"
+        manager2.textContent += "Domenico Tedesco"
+        team1.textContent = "FRANCE"
+        team2.textContent = "BELGIUM"
+        score.textContent = "1 - 0"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Vertonghen 85' (OG) ⚽"
+        goals2.innerHTML = ""
+        date.textContent = "01 / 07 / 2024"
     }
 
     if (selectedYear == "41") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("D Costa", "Cancelo", "N Mendes", "K Pepe", "R Dias", "Palhinha", "B Silva", "Vitinha", "C Ronaldo", "B Fernandes", "R Leao")
+        four_four_two2("Oblak", "Karnicnik", "Balkovec", "Bijol", "Drkusic", "Elsnik", "Stojanovic", "Cerin", "Sporar", "Sesko", "Mlakar")
+        flag1.src = "/football_img/logos/portugal.png"
+        flag2.src = "/football_img/logos/slovenia.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "PORTUGAL"
-        team2.innerHTML = "SLOVENIA"
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        manager1.textContent += "Roberto Martinez"
+        manager2.textContent += "Matjaz Kek"
+        team1.textContent = "PORTUGAL"
+        team2.textContent = "SLOVENIA"
+        score.textContent = "0 - 0"
+        OT.innerHTML = "3-0 on penalties"
+        goals1.innerHTML = ""
+        goals2.innerHTML = ""
+        date.textContent = "01 / 07 / 2024"
     }
 
     if (selectedYear == "42") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_five_one("Nita", "Ratiu", "Mogos", "Burca", "Dragusin", "M Marin", "D Man", "R Marin", "Dragus", "Stanciu", "I Hagi")
+        four_two_three_one2("Verbruggen", "Dumfries", "N Ake", "van Dijk", "de Vrij", "Reijnders", "Bergwijn", "Schouten", "Depay", "X Simons", "Gakpo")
+        flag1.src = "/football_img/logos/romania.png"
+        flag2.src = "/football_img/logos/netherlands.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "ROMANIA"
-        team2.innerHTML = "NETHERLANDS"
-        score.textContent = ""
+        manager1.textContent += "Edward Iordanescu"
+        manager2.textContent += "Ronald Koeman"
+        team1.textContent = "ROMANIA"
+        team2.textContent = "NETHERLANDS"
+        score.textContent = "0 - 3"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = ""
+        goals2.innerHTML = "Gakpo 20' ⚽<br>Malen 83' ⚽<br>Malen 90+3' ⚽"
+        date.textContent = "02 / 07 / 2024"
     }
 
     if (selectedYear == "43") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Pentz", "Posch", "Mwene", "Lienhart", "Danso", "Laimer", "Schmid", "Seiwald", "Arnautovic", "Baumgartner", "Sabitzer")
+        three_four_three2("Gunok", "Muldur", "Kadioglu", "Bardakci", "Demiral", "Ayhan", "B Yilmaz", "Kokcu", "Guler", "Yuksek", "Yildiz")
+        flag1.src = "/football_img/logos/austria.png"
+        flag2.src = "/football_img/logos/turkey.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
-        team1.innerHTML = "AUSTRIA"
-        team2.innerHTML = "TURKIYE"
-        score.textContent = ""
+        manager1.textContent += "Ralf Rangnick"
+        manager2.textContent += "Vincenzo Montella"
+        team1.textContent = "AUSTRIA"
+        team2.textContent = "TURKIYE"
+        score.textContent = "1 - 2"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Gregoritsch 66' ⚽"
+        goals2.innerHTML = "Demiral 1' ⚽<br>Demiral 59' ⚽"
+        date.textContent = "02 / 07 / 2024"
     }
     
     if (selectedYear == "44") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_three_three("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "Rodri", "Yamal", "Pedri", "Morata", "F Ruiz", "N Williams")
+        four_two_three_one2("Neuer", "Kimmich", "Raum", "J Tah", "Rudiger", "Kroos", "Sane", "Can", "Havertz", "Gundogan", "Musiala")
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/germany.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Luis de la Fuente"
+        manager2.textContent += "Julian Nagelsmann"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "GERMANY"
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        score.textContent = "2 - 1"
+        OT.innerHTML = "after extra time"
+        goals1.innerHTML = "D Olmo 51' ⚽<br>M Merino 119' ⚽<br>Carvajal 120+6' 🟨🟥"
+        goals2.innerHTML = "F Wirtz 89' ⚽"
+        date.textContent = "05 / 07 / 2024"
     }
 
     if (selectedYear == "45") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("D Costa", "Cancelo", "N Mendes", "K Pepe", "R Dias", "Palhinha", "B Silva", "Vitinha", "C Ronaldo", "B Fernandes", "R Leao")
+        four_three_one_two2("Maignan", "Kounde", "T Hernandez", "Saliba", "Upamecano", "Tchouameni", "Griezmann", "Kante", "Mbappe", "Camavinga", "K Muani")
+        flag1.src = "/football_img/logos/portugal.png"
+        flag2.src = "/football_img/logos/france.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Roberto Martinez"
+        manager2.textContent += "Didier Deschamps"
         team1.innerHTML = "PORTUGAL"
         team2.innerHTML = "FRANCE"
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        score.textContent = "0 - 0"
+        OT.innerHTML = "3-5 on penalties"
+        goals1.innerHTML = ""
+        goals2.innerHTML = ""
+        date.textContent = "05 / 07 / 2024"
     }
 
     if (selectedYear == "46") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        three_four_two_one("Pickford", "Saka", "Trippier", "Konsa", "Stones", "Walker", "Foden", "D Rice", "Kane", "Mainoo", "Bellingham")
+        three_four_two_one2("Sommer", "Ndoye", "Aebischer", "R Rodriguez", "Akanji", "Schar", "Rieder", "Xhaka", "Embolo", "Freuler", "R Vargas")
+        flag1.src = "/football_img/logos/england.png"
+        flag2.src = "/football_img/logos/switzerland.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Gareth Southgate"
+        manager2.textContent += "Murat Yakin"
         team1.innerHTML = "ENGLAND"
         team2.innerHTML = "SWITZERLAND"
-        score.textContent = ""
-        OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        score.textContent = "1 - 1"
+        OT.innerHTML = "5-3 on penalties"
+        goals1.innerHTML = "Saka 80' ⚽"
+        goals2.innerHTML = "Embolo 75' ⚽"
+        date.textContent = "06 / 07 / 2024"
     }
 
     if (selectedYear == "47") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Verbruggen", "Dumfries", "N Ake", "van Dijk", "de Vrij", "Reijnders", "Bergwijn", "Schouten", "Depay", "X Simons", "Gakpo")
+        five_four_one2("Gunok", "Muldur", "Kadioglu", "Bardakci", "Akaydin", "Ayhan", "Guler", "Calhanoglu", "B Yilmaz", "Ozcan", "Yildiz")
+        flag1.src = "/football_img/logos/netherlands.png"
+        flag2.src = "/football_img/logos/turkey.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Ronald Koeman"
+        manager2.textContent += "Vincenzo Montella"
         team1.innerHTML = "NETHERLANDS"
         team2.innerHTML = "TURKIYE"
-        score.textContent = ""
+        score.textContent = "2 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "de Vrij 70' ⚽<br>Muldur 76' (OG) ⚽"
+        goals2.innerHTML = "Akaydin 35' ⚽<br>Yildirim 90+6' 🟥"
+        date.textContent = "06 / 07 / 2024"
     } 
     
     if (selectedYear == "48") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("U Simon", "J Navas", "Cucurella", "Laporte", "Nacho", "F Ruiz", "Yamal", "Rodri", "Morata", "D Olmo", "N Williams")
+        four_three_three2("Maignan", "Kounde", "T Hernandez", "Saliba", "Upamecano", "Tchouameni", "O Dembele", "Kante", "K Muani", "Rabiot", "Mbappe")
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/france.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Luis de la Fuente"
+        manager2.textContent += "Didier Deschamps"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "FRANCE"
-        score.textContent = ""
+        score.textContent = "2 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "Yamal 21' ⚽<br>D Olmo 25' ⚽"
+        goals2.innerHTML = "K Muani 9' ⚽"
+        date.textContent = "09 / 07 / 2024"
     }
 
     if (selectedYear == "49") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("Verbruggen", "Dumfries", "N Ake", "van Dijk", "de Vrij", "Reijnders", "Malen", "Schouten", "Depay", "X Simons", "Gakpo")
+        three_four_two_one2("Pickford", "Saka", "Trippier", "Guehi", "Stones", "Walker", "Foden", "D Rice", "Kane", "Mainoo", "Bellingham")
+        flag1.src = "/football_img/logos/netherlands.png"
+        flag2.src = "/football_img/logos/england.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Ronald Koeman"
+        manager2.textContent += "Gareth Southgate"
         team1.innerHTML = "NETHERLANDS"
         team2.innerHTML = "ENGLAND"
-        score.textContent = ""
+        score.textContent = "1 - 2"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "X Simons 7' ⚽"
+        goals2.innerHTML = "Kane 18' (P) ⚽<br>O Watkins 90' ⚽"
+        date.textContent = "10 / 07 / 2024"
     }
 
     if (selectedYear == "50") {
-        four_two_three_one("", "", "", "", "", "", "", "", "", "", "")
-        four_two_three_one2("", "", "", "", "", "", "", "", "", "", "")
-        flag1.src = "/football_img/logos/.png"
-        flag2.src = "/football_img/logos/.png"
+        four_two_three_one("U Simon", "Carvajal", "Cucurella", "Laporte", "Le Normand", "F Ruiz", "Yamal", "Rodri", "Morata", "D Olmo", "N Williams")
+        four_two_three_one2("Pickford", "Walker", "Shaw", "Guehi", "Stones", "D Rice", "Saka", "Mainoo", "Kane", "Foden", "Bellingham")
+        flag1.src = "/football_img/logos/spain.png"
+        flag2.src = "/football_img/logos/england.png"
         sidepic.src = "/football_img/logos/euro 2024.png";
-        manager1.textContent += ""
-        manager2.textContent += ""
+        manager1.textContent += "Luis de la Fuente"
+        manager2.textContent += "Gareth Southgate"
         team1.innerHTML = "SPAIN"
         team2.innerHTML = "ENGLAND"
-        score.textContent = ""
+        score.textContent = "2 - 1"
         OT.innerHTML = ""
-        goals1.innerHTML = "⚽"
-        goals2.innerHTML = "⚽"
-        date.textContent = ""
+        goals1.innerHTML = "N Williams 47' ⚽<br>Oyarzabal 86' ⚽"
+        goals2.innerHTML = "C Palmer 73' ⚽"
+        date.textContent = "14 / 07 / 2024"
     }
-    substitutes1.innerHTML = substitutes1.innerHTML.replace(/,/g, ' •');
-    substitutes2.innerHTML = substitutes2.innerHTML.replace(/,/g, ' •');
 }
